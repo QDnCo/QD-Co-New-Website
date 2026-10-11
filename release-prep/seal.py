@@ -2,7 +2,7 @@ from pathlib import Path
 import hashlib,json
 P=Path(__file__).resolve().parent;R=P/'candidate';B=P.parent/'release-source'
 def digest(p):return hashlib.sha256(p.read_bytes()).hexdigest()
-def manifest(r):return {str(f.relative_to(r)):digest(f) for f in sorted(r.rglob('*')) if f.is_file()}
+def manifest(r):return {str(f.relative_to(r)):digest(f) for f in sorted(r.rglob('*')) if f.is_file() and f.name!=".DS_Store"}
 baseline=json.loads((P/'baseline-manifest.json').read_text())
 if manifest(B)!=baseline:raise SystemExit('STOP: production source changed since baseline snapshot. Reconcile newer files before sealing.')
 a=manifest(R);(P/'candidate-manifest.json').write_text(json.dumps(a,indent=2))
