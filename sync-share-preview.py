@@ -1,6 +1,6 @@
 # Refresh only the sanitized temporary snapshot; never production.
 from pathlib import Path
-import shutil,subprocess,json
+import shutil,subprocess,json,sys
 src=Path(__file__).resolve().parent
 root=Path('/tmp/qdnco-share-preview-20261011');root.mkdir(exist_ok=True)
 for p in src.iterdir():
