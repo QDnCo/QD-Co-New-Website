@@ -7518,7 +7518,7 @@ function V3Select({id,name,value,onChange,children,required}){
 }
 
 function V3Contact(){
- const [role,setRole]=useState('Developer'),[count,setCount]=useState(1),[done,setDone]=useState(false),[sameWhatsApp,setSameWhatsApp]=useState('yes'),[service,setService]=useState('Meta/Google Ad Campaigns');
+ const [role,setRole]=useState('Developer'),[count,setCount]=useState(1),[done,setDone]=useState(false),[sameWhatsApp,setSameWhatsApp]=useState('yes'),[service,setService]=useState('Meta/Google Ad Campaigns'),[callTiming,setCallTiming]=useState('Within 24 hours');
  const cp=[54000,48600,45600,45600,43200],dev=[78000,70200,66000,66000,62400];
  const dubaiRates=(role==='Channel partner'?cp:dev).map(rate=>Math.round(rate*4650/cp[0])),dubaiRate=dubaiRates[Math.min(count,5)-1];
  const roleLabel=V3_DUBAI&&role==='Channel partner'?'Realtor / Channel partner':role;
@@ -7548,7 +7548,7 @@ function V3Contact(){
  {service==='Others'&&<><label htmlFor="other-service">Tell us what you need</label><textarea id="other-service" name="otherService" required rows="3" placeholder="Describe the service or support you’re looking for"/></>}
 
  {isClient&&<><label htmlFor="market">Project / market</label><input id="market" name="market" required placeholder={V3_DUBAI?'Dubai project and community':'Project name and city'}/></>}
- <label htmlFor="date">Preferred call date (optional)</label><input id="date" name="preferredDate" type="date"/><button className="v3-button" type="submit">Preview enquiry flow ↗</button><p aria-live="polite" style={{fontSize:11,marginTop:20}}>{done?'Preview complete. No information was sent and no booking was created.':'Private preview. This form does not submit leads or reserve a calendar slot.'}</p></form></section></div></section>
+ <label htmlFor="call-timing">When would you prefer a call?</label><V3Select id="call-timing" name="callTiming" value={callTiming} onChange={e=>setCallTiming(e.target.value)}><option>Within 24 hours</option><option>Choose another date</option></V3Select>{callTiming==='Within 24 hours'?<input type="hidden" name="preferredDate" value="Within 24 hours"/>:<><label htmlFor="date">Preferred call date</label><input id="date" name="preferredDate" type="date" required/></>}<p className="v3-field-hint">Your preferred callback timing. Our team will confirm availability.</p><button className="v3-button" type="submit">Preview enquiry flow ↗</button><p aria-live="polite" style={{fontSize:11,marginTop:20}}>{done?'Preview complete. No information was sent and no booking was created.':'Private preview. This form does not submit leads or reserve a calendar slot.'}</p></form></section></div></section>
 }
 
 function V3Profile(){return <section className="v3-wrap v3-section v3-page"><span className="v3-eyebrow">Company profile / Private review</span><h1>Built for<br/><em>real estate demand.</em></h1><div className="v3-actions"><V3Button href="assets/QDnCo-company-profile-review.pdf">Open the redesigned profile</V3Button></div><iframe title="QDnCo company profile" src="assets/QDnCo-company-profile-review.pdf" style={{width:'100%',height:'75vh',border:0,marginTop:40,borderRadius:20}}/></section>}

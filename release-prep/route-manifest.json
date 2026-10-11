@@ -31,8 +31,8 @@
     "source": "contact.html",
     "url": "https://qdnco.com/contact/",
     "file": "contact/index.html",
-    "staticCharacters": 19779,
-    "sha256": "2971f023b714bcc84f4517699a7599b9d460b0f6f5f94614161a0af4aad6e273"
+    "staticCharacters": 20247,
+    "sha256": "412a7fe861a17da1b397a11b59157a6483dffb7d8204390fdd9f6b6e9a4dc0b3"
   },
   {
     "source": "dubai-about.html",
@@ -52,8 +52,8 @@
     "source": "dubai-contact.html",
     "url": "https://qdnco.com/dubai/contact/",
     "file": "dubai/contact/index.html",
-    "staticCharacters": 20453,
-    "sha256": "fc8b6a339379ba9ab44798c42965193302fa43f28c423a4817e56d2136d0112e"
+    "staticCharacters": 20921,
+    "sha256": "77135d80b68449adb9b3dadb35bad447953c60aac963a83a28e59803422b25f0"
   },
   {
     "source": "company-profile.html",
@@ -164,6 +164,6 @@
     "source": "pricing/index.html",
     "url": "https://qdnco.com/pricing/index.html",
     "file": "pricing/index.html",
-    "sha256": "571c8a09586a5eca5ecea7c4e48fbcfd5dc2bf85ff65b66e356c5450d6558c43"
+    "sha256": "e4b90e8b1a6a1b2c58eb5453d297018278b9e89e69001f4cc33f2b5661e709a4"
   }
 ]
