@@ -1,0 +1,5 @@
+# Sai portrait update — 11 October 2026
+Built-in image generation edit of owner-supplied Kavshik photo.png; output assets/sai-black-three-piece-v4.png. Original preserved.
+Prompt: Edit exact portrait for professional team website. Change clothing only to black tailored jacket, black waistcoat, black shirt and black tie with realistic texture. Preserve identity, facial proportions, expression, natural skin tone, hair, crossed arms, watch and framing. Improve clarity and reduce pixelation conservatively; no beautification or reshaping. Preserve white background; high-resolution square, head and arms visible, no text.
+Face detail is AI-assisted reconstruction, not recovered camera detail. Reviewed visually for natural likeness.
+India/Dubai shared About component updated; matching white studio panels in both themes. All three panels measure380px on desktop, with aligned crown and bottom. Original portraits retained. Preview rebuilt/shared snapshot refreshed; local release candidate rebuilt, no production deployment.

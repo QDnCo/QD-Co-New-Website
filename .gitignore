@@ -6,3 +6,15 @@ __pycache__/
 !.env.example
 node_modules/
 *.log
+
+# Generated local release candidate, audits and source assets stay separate from Git pushes.
+release-prep/candidate/
+release-prep/test-render.html
+release-prep/vendor-cache/
+
+# Local media experiments and review captures are not deployed.
+video-edit/
+/*-preview.png
+/*-preview.jpg
+release-prep/*-preview.png
+.venv/

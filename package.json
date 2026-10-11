@@ -1,0 +1,13 @@
+{
+  "name": "qdnco-new-website",
+  "private": true,
+  "scripts": {
+    "build": "python3 build-v3.py && python3 build-dubai-v4.py && sh release-prep/prepare.sh && python3 sync-share-preview.py"
+  },
+  "dependencies": {
+    "react": "19.2.8",
+    "react-dom": "19.2.8",
+    "framer-motion": "13.0.0",
+    "sucrase": "3.35.1"
+  }
+}

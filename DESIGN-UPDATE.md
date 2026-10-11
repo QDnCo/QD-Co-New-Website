@@ -1,0 +1,17 @@
+
+
+## 11 October 2026 — Dubai project pricing
+Removed engagement-plan selector and lead-based billing from active shared preview. Proposed one-campaign-per-project monthly rates: AED20,000 for one; AED18,000 each for two; AED17,000 each for three or four; AED16,000 each for five+. Media separate. Browser verified totals20,000/36,000/51,000/68,000/starting80,000 and non-ad-service custom quote. India rate arrays unchanged. Sanitized temporary share preview refreshed; production not deployed. Screenshot: dubai-project-pricing-preview.jpg.
+
+## 11 October 2026 — Hero clarity and shared emerald map
+Owner requested simpler regional heroes, no gold headline, identical India/Dubai brand scroll and India-focused map. Removed market-intelligence/sales-ready-demand/connected-team copy and redundant hero video link. New promise: Built for qualified leads. Supporting performance marketing and lead generation copy localized for India and Dubai. Charcoal light / ivory dark headings. Emerald land with gold boundaries and existing pulse pins; neutral beige / charcoal backgrounds. Both regions share all 13 developer logos and the same map geometry. Temporary preview refreshed; production untouched. Browser checked both themes, Dubai map viewBox and all logo names; narrow mobile metric sizing corrected.
+Search evidence: saved 30 September Search Console Queries.csv: performance marketing for real estate 21 impressions, 2 clicks, position5.05. Small historical sample, not market-wide volume; keyword database has no measured volumes. Current search results support lead-generation language (https://www.leadasset.in/performance-marketing and https://onedigitalco.com/en/industries/real-estate/), not a claim of highest search volume.
+
+- 2026-10-11: Enlarge/spread Built for qualified leads using existing Instrument Serif italic, roughly reaching midpoint of Marketing above; reduce headline gap. Worldwide heading uses same italic with airy spacing, retains QDnCo spelling and exclamation. Light-theme maps now black land, gold outlines including 36 Natural Earth India state/UT geometries, near-white/baby-blue sea. Dark map stays emerald. Both region previews updated, no production publication.
+Browser verified 36 state paths and light map appearance. Map source: MAP-SOURCE.md; screenshots hero-serif-spacing-preview.jpg and map-black-gold-states-preview.jpg. Sanitized share allowlist now includes india-states.json only, not arbitrary JSON.
+
+- 2026-10-11: Hero supporting serif smaller (.70em), main headline slightly larger, gap10px. India map state overlay limited to Karnataka,Tamil Nadu,Maharashtra,Delhi (4 verified geometries); remove other India internal boundaries. Chicago,Dubai,India and Indian city names use dark gold-edged label badges for legibility over sea/land, same font sizes. Shared India/Dubai preview refreshed and visually checked; no production deployment.
+
+
+## Hero scale and lower-left proof — 11 October 2026
+Enlarged headline, supporting copy and 54px/15px primary actions. Desktop proof cards now stack pipeline → ad spend → qualification, with 38–50px figures, 13px labels and generous spacing; flexible hero content brings cards just above the developer strip. Short laptops use a large pipeline card beside spend/qualification to preserve first-view brands. Both regions/themes share the rules. Verified default desktop,1366×768,1366×668 (Dubai brand bottom659/668),390×844 no horizontal overflow. Shared temporary preview and local release candidate refreshed; release audit remains passing. Production unchanged.

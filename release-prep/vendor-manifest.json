@@ -1,0 +1,22 @@
+[
+  {
+    "source": "https://unpkg.com/react@18.3.1/umd/react.production.min.js",
+    "local": "/_redesign/vendor/react.production.min.js",
+    "sha256": "d949f1c3687aedadcedac85261865f29b17cd273997e7f6b2bfc53b2f9d4c4dd"
+  },
+  {
+    "source": "https://unpkg.com/react-dom@18.3.1/umd/react-dom.production.min.js",
+    "local": "/_redesign/vendor/react-dom.production.min.js",
+    "sha256": "35f4f974f4b2bcd44da73963347f8952e341f83909e4498227d4e26b98f66f0d"
+  },
+  {
+    "source": "https://unpkg.com/framer-motion@11.11.17/dist/framer-motion.js",
+    "local": "/_redesign/vendor/framer-motion.js",
+    "sha256": "8cf79641fa5576a2bf832205af2019f231304e9baab65a19e99ff125c7bd5041"
+  },
+  {
+    "source": "https://unpkg.com/hls.js@1.5.17/dist/hls.min.js",
+    "local": "/_redesign/vendor/hls.min.js",
+    "sha256": "484054e8cd03d3f6d1781fb7f402bdc318d8a4c527f933a95c624e27cc9a9470"
+  }
+]

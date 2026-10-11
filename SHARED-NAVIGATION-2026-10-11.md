@@ -1,0 +1,6 @@
+# Shared publication branding
+118 preserved HTML pages now use the shared branded header, plus the24 existing redesigned routes with V3Nav. Three PDFs (India/Dubai objection playbooks and company profile) have logo and navigation links on every page. CSS resets prevent white source logo disappearing against white backgrounds. Region is selected from route filename, preserving canonical URLs and content. All old article headings/breadcrumbs and footer links retained.
+
+Build: release-prep/prepare.sh applies brand-pages.py after metadata finalization, before audit/seal. preview-branded-pages.py refreshes only the existing temporary noindex snapshot. sync-share-preview.py re-applies this snapshot after preview builds. No production source changed or deployed.
+
+Verified: 118 HTML logos/home targets/nav structures and all PDF pages have homepage links; existing release audit passes without broken local references. India/Dubai logo clicks confirmed in browser. Mobile header126.5px, no overlap. Downloadable PDFs use static clickable navigation; HTML current-page highlight animates. Third-party directory/social citation headers are outside website control. Raw CSV/TXT feeds remain machine-readable.

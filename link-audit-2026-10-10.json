@@ -1,0 +1,217 @@
+[
+  {
+    "url": "https://clutch.co/profile/qdnco",
+    "status": 403,
+    "note": "Access restriction; public status not established by this check"
+  },
+  {
+    "url": "https://qdnco.com/about/",
+    "status": 200,
+    "final": "https://qdnco.com/about/"
+  },
+  {
+    "url": "https://qdnco.com/answers/index.html",
+    "status": 200,
+    "final": "https://qdnco.com/answers/index.html"
+  },
+  {
+    "url": "https://qdnco.com/areas/index.html",
+    "status": 200,
+    "final": "https://qdnco.com/areas/index.html"
+  },
+  {
+    "url": "https://qdnco.com/compare/index.html",
+    "status": 200,
+    "final": "https://qdnco.com/compare/index.html"
+  },
+  {
+    "url": "https://qdnco.com/data/index.html",
+    "status": 200,
+    "final": "https://qdnco.com/data/index.html"
+  },
+  {
+    "url": "https://qdnco.com/data/india-dubai-buyer-acquisition-report.html",
+    "status": 200,
+    "final": "https://qdnco.com/data/india-dubai-buyer-acquisition-report.html"
+  },
+  {
+    "url": "https://qdnco.com/data/meta-ad-library-audit-bangalore-agencies.html",
+    "status": 200,
+    "final": "https://qdnco.com/data/meta-ad-library-audit-bangalore-agencies.html"
+  },
+  {
+    "url": "https://qdnco.com/data/real-estate-cost-per-lead-benchmarks.html",
+    "status": 200,
+    "final": "https://qdnco.com/data/real-estate-cost-per-lead-benchmarks.html"
+  },
+  {
+    "url": "https://qdnco.com/dubai/",
+    "status": 200,
+    "final": "https://qdnco.com/dubai/"
+  },
+  {
+    "url": "https://qdnco.com/dubai/indian-real-estate-performance-marketing-agency/",
+    "status": 200,
+    "final": "https://qdnco.com/dubai/indian-real-estate-performance-marketing-agency/"
+  },
+  {
+    "url": "https://qdnco.com/glossary/index.html",
+    "status": 200,
+    "final": "https://qdnco.com/glossary/index.html"
+  },
+  {
+    "url": "https://qdnco.com/guides/ai-creative-volume-vs-traditional-agency.html",
+    "status": 200,
+    "final": "https://qdnco.com/guides/ai-creative-volume-vs-traditional-agency.html"
+  },
+  {
+    "url": "https://qdnco.com/guides/cost-per-qualified-lead-real-estate.html",
+    "status": 200,
+    "final": "https://qdnco.com/guides/cost-per-qualified-lead-real-estate.html"
+  },
+  {
+    "url": "https://qdnco.com/guides/how-much-should-a-developer-spend.html",
+    "status": 200,
+    "final": "https://qdnco.com/guides/how-much-should-a-developer-spend.html"
+  },
+  {
+    "url": "https://qdnco.com/guides/index.html",
+    "status": 200,
+    "final": "https://qdnco.com/guides/index.html"
+  },
+  {
+    "url": "https://qdnco.com/guides/real-estate-leads-for-channel-partners.html",
+    "status": 200,
+    "final": "https://qdnco.com/guides/real-estate-leads-for-channel-partners.html"
+  },
+  {
+    "url": "https://qdnco.com/guides/real-estate-performance-marketing-bangalore.html",
+    "status": 200,
+    "final": "https://qdnco.com/guides/real-estate-performance-marketing-bangalore.html"
+  },
+  {
+    "url": "https://qdnco.com/guides/rera-compliant-advertising.html",
+    "status": 200,
+    "final": "https://qdnco.com/guides/rera-compliant-advertising.html"
+  },
+  {
+    "url": "https://qdnco.com/guides/what-counts-as-a-qualified-lead.html",
+    "status": 200,
+    "final": "https://qdnco.com/guides/what-counts-as-a-qualified-lead.html"
+  },
+  {
+    "url": "https://qdnco.com/legal/accessibility.html",
+    "status": 200,
+    "final": "https://qdnco.com/legal/accessibility.html"
+  },
+  {
+    "url": "https://qdnco.com/legal/cookies.html",
+    "status": 200,
+    "final": "https://qdnco.com/legal/cookies.html"
+  },
+  {
+    "url": "https://qdnco.com/legal/disclaimer.html",
+    "status": 200,
+    "final": "https://qdnco.com/legal/disclaimer.html"
+  },
+  {
+    "url": "https://qdnco.com/legal/privacy.html",
+    "status": 200,
+    "final": "https://qdnco.com/legal/privacy.html"
+  },
+  {
+    "url": "https://qdnco.com/legal/refund.html",
+    "status": 200,
+    "final": "https://qdnco.com/legal/refund.html"
+  },
+  {
+    "url": "https://qdnco.com/legal/terms.html",
+    "status": 200,
+    "final": "https://qdnco.com/legal/terms.html"
+  },
+  {
+    "url": "https://qdnco.com/pricing/index.html",
+    "status": 200,
+    "final": "https://qdnco.com/pricing/index.html"
+  },
+  {
+    "url": "https://qdnco.com/work/brigade-eternia.html",
+    "status": 200,
+    "final": "https://qdnco.com/work/brigade-eternia.html"
+  },
+  {
+    "url": "https://qdnco.com/work/godrej-woodscapes.html",
+    "status": 200,
+    "final": "https://qdnco.com/work/godrej-woodscapes.html"
+  },
+  {
+    "url": "https://qdnco.com/work/index.html",
+    "status": 200,
+    "final": "https://qdnco.com/work/index.html"
+  },
+  {
+    "url": "https://qdnco.com/work/indium-north-bangalore.html",
+    "status": 200,
+    "final": "https://qdnco.com/work/indium-north-bangalore.html"
+  },
+  {
+    "url": "https://qdnco.com/work/kumar-platina.html",
+    "status": 200,
+    "final": "https://qdnco.com/work/kumar-platina.html"
+  },
+  {
+    "url": "https://qdnco.com/work/nambiar-bannerghatta.html",
+    "status": 200,
+    "final": "https://qdnco.com/work/nambiar-bannerghatta.html"
+  },
+  {
+    "url": "https://qdnco.com/work/vaishnavi-life-mysore.html",
+    "status": 200,
+    "final": "https://qdnco.com/work/vaishnavi-life-mysore.html"
+  },
+  {
+    "url": "https://share.google/FodoeqQ5BsOYxikAz",
+    "status": 200,
+    "final": "https://www.google.com/search?kgmid=/g/11zyzyy85d&hl=en-IN&q=QD+%26+Co.&shem=epsd1,esd2e,ltae,rimspwouoe&shndl=30&source=sh/x/loc/osrp/m5/1&kgs=26c9bb23196ecd8c&utm_source=epsd1,esd2e,ltae,rimspwouoe,sh/x/loc/osrp/m5/1"
+  },
+  {
+    "url": "https://www.designrush.com/agency/profile/qdnco",
+    "status": 403,
+    "note": "Access restriction; public status not established by this check"
+  },
+  {
+    "url": "https://www.facebook.com/qdnco",
+    "status": 200,
+    "final": "https://www.facebook.com/qdnco"
+  },
+  {
+    "url": "https://www.goodfirms.co/company/qdnco",
+    "status": 403,
+    "note": "Access restriction; public status not established by this check"
+  },
+  {
+    "url": "https://www.instagram.com/qdnco.official/",
+    "status": 200,
+    "final": "https://www.instagram.com/qdnco.official/"
+  },
+  {
+    "url": "https://www.linkedin.com/company/qd-co/",
+    "status": 200,
+    "final": "https://www.linkedin.com/company/qd-co/"
+  },
+  {
+    "url": "https://www.trustpilot.com/review/qdnco.com",
+    "status": 403,
+    "note": "Access restriction; public status not established by this check"
+  },
+  {
+    "url": "https://x.com/qdnco_official",
+    "status": 200,
+    "final": "https://x.com/qdnco_official"
+  },
+  {
+    "url": "https://youtube.com/@qdnco",
+    "status": 200,
+    "final": "https://www.youtube.com/@qdnco"
+  }
+]

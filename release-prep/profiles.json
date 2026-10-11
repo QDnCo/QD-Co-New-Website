@@ -1,0 +1,68 @@
+[
+  {
+    "name": "Facebook",
+    "url": "https://www.facebook.com/qdnco",
+    "status": "verified-public",
+    "evidence": "Existing rollout records and website profile directory; see FOOTPRINT-EVIDENCE.md"
+  },
+  {
+    "name": "Instagram",
+    "url": "https://www.instagram.com/qdnco.official/",
+    "status": "verified-public",
+    "evidence": "Existing rollout records and website profile directory; see FOOTPRINT-EVIDENCE.md"
+  },
+  {
+    "name": "LinkedIn",
+    "url": "https://www.linkedin.com/company/qd-co/",
+    "status": "verified-public",
+    "evidence": "Existing rollout records and website profile directory; see FOOTPRINT-EVIDENCE.md"
+  },
+  {
+    "name": "YouTube",
+    "url": "https://www.youtube.com/channel/UCvW9S0tLErEVeWi2y0BzA8A",
+    "status": "verified-public",
+    "evidence": "Existing rollout records and website profile directory; see FOOTPRINT-EVIDENCE.md"
+  },
+  {
+    "name": "X",
+    "url": "https://x.com/qdnco_official",
+    "status": "verified-public",
+    "evidence": "Existing rollout records and website profile directory; see FOOTPRINT-EVIDENCE.md"
+  },
+  {
+    "name": "Sortlist",
+    "url": "https://www.sortlist.com/agency/qdnco",
+    "status": "verified-public",
+    "evidence": "Existing rollout records and website profile directory; see FOOTPRINT-EVIDENCE.md"
+  },
+  {
+    "name": "Clutch",
+    "url": "https://clutch.co/profile/qdnco",
+    "status": "verified-public",
+    "evidence": "Existing rollout records and website profile directory; see FOOTPRINT-EVIDENCE.md"
+  },
+  {
+    "name": "GoodFirms",
+    "url": "https://www.goodfirms.co/company/qdnco",
+    "status": "verified-public",
+    "evidence": "Existing rollout records and website profile directory; see FOOTPRINT-EVIDENCE.md"
+  },
+  {
+    "name": "DesignRush",
+    "url": "https://www.designrush.com/agency/profile/qdnco",
+    "status": "verified-public",
+    "evidence": "Existing rollout records and website profile directory; see FOOTPRINT-EVIDENCE.md"
+  },
+  {
+    "name": "Trustpilot",
+    "url": "https://www.trustpilot.com/review/qdnco.com",
+    "status": "verified-public",
+    "evidence": "Existing rollout records and website profile directory; see FOOTPRINT-EVIDENCE.md"
+  },
+  {
+    "name": "Google Business Profile",
+    "url": "https://www.google.com/search?kgmid=/g/11zyzyy85d",
+    "status": "verified-public",
+    "evidence": "Existing live organization sameAs and GBP rollout records"
+  }
+]

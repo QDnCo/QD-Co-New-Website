@@ -1,3 +1,4 @@
+import hashlib
 from pathlib import Path
 import re,json,urllib.request,shutil
 P=Path(__file__).resolve().parent
@@ -12,8 +13,15 @@ s=s.replace('The platforms those five capabilities run on','The platforms behind
 s=s.replace('<title>Real Estate Marketing, Bangalore | QDnCo</title>','<title>QDnCo — Private design review 03</title>')
 css=(P/'v3.css').read_text();s=s.replace('</head>','<style>'+css+'</style></head>')
 s+=(P/'v3.jsx').read_text()+'\nReactDOM.createRoot(document.getElementById("root")).render(<App/>);\n</script></body></html>'
+s=s.replace('</head>', '<link rel="stylesheet" href="gold-ui.css?v='+hashlib.sha256((P/'gold-ui.css').read_bytes()).hexdigest()[:12]+'"></head>')
+s=s.replace('</head>', '<link rel="stylesheet" href="responsive.css?v='+hashlib.sha256((P/'responsive.css').read_bytes()).hexdigest()[:12]+'"></head>')
 for n in ['index','india','dubai','about','work','contact','dubai-about','dubai-work','dubai-contact','company-profile']:(P/(n+'.html')).write_text(s)
+for case in json.loads((P/'case-studies.json').read_text()):
+ (P/('case-'+case['slug']+'.html')).write_text(s)
 if not (P/'assets/world.json').exists():
  data=json.load(urllib.request.urlopen('https://raw.githubusercontent.com/nvkelso/natural-earth-vector/master/geojson/ne_110m_admin_0_countries.geojson'))
  (P/'assets/world.json').write_text(json.dumps([f['geometry'] for f in data['features']],separators=(',',':')))
 print('Built private iteration 03 only')
+
+import subprocess,sys
+subprocess.run([sys.executable,str(P/"brand-icons.py")],check=True)

@@ -1,0 +1,607 @@
+[
+  {
+    "url": "https://qdnco.com/",
+    "status": 200,
+    "final": "https://qdnco.com/"
+  },
+  {
+    "url": "https://qdnco.com/about/",
+    "status": 200,
+    "final": "https://qdnco.com/about/"
+  },
+  {
+    "url": "https://qdnco.com/about/editorial-policy.html",
+    "status": 200,
+    "final": "https://qdnco.com/about/editorial-policy.html"
+  },
+  {
+    "url": "https://qdnco.com/answers/agency-vs-channel-partner.html",
+    "status": 200,
+    "final": "https://qdnco.com/answers/agency-vs-channel-partner.html"
+  },
+  {
+    "url": "https://qdnco.com/answers/are-ad-creatives-charged-extra.html",
+    "status": 200,
+    "final": "https://qdnco.com/answers/are-ad-creatives-charged-extra.html"
+  },
+  {
+    "url": "https://qdnco.com/answers/best-time-to-launch-a-real-estate-campaign.html",
+    "status": 200,
+    "final": "https://qdnco.com/answers/best-time-to-launch-a-real-estate-campaign.html"
+  },
+  {
+    "url": "https://qdnco.com/answers/can-you-work-with-my-existing-agency.html",
+    "status": 200,
+    "final": "https://qdnco.com/answers/can-you-work-with-my-existing-agency.html"
+  },
+  {
+    "url": "https://qdnco.com/answers/difference-between-lead-and-enquiry.html",
+    "status": 200,
+    "final": "https://qdnco.com/answers/difference-between-lead-and-enquiry.html"
+  },
+  {
+    "url": "https://qdnco.com/answers/do-i-need-a-landing-page.html",
+    "status": 200,
+    "final": "https://qdnco.com/answers/do-i-need-a-landing-page.html"
+  },
+  {
+    "url": "https://qdnco.com/answers/do-you-guarantee-leads-or-bookings.html",
+    "status": 200,
+    "final": "https://qdnco.com/answers/do-you-guarantee-leads-or-bookings.html"
+  },
+  {
+    "url": "https://qdnco.com/answers/do-you-work-outside-real-estate.html",
+    "status": 200,
+    "final": "https://qdnco.com/answers/do-you-work-outside-real-estate.html"
+  },
+  {
+    "url": "https://qdnco.com/answers/google-ads-real-estate-basics.html",
+    "status": 200,
+    "final": "https://qdnco.com/answers/google-ads-real-estate-basics.html"
+  },
+  {
+    "url": "https://qdnco.com/answers/how-fast-should-leads-be-called.html",
+    "status": 200,
+    "final": "https://qdnco.com/answers/how-fast-should-leads-be-called.html"
+  },
+  {
+    "url": "https://qdnco.com/answers/how-long-before-leads-start.html",
+    "status": 200,
+    "final": "https://qdnco.com/answers/how-long-before-leads-start.html"
+  },
+  {
+    "url": "https://qdnco.com/answers/how-long-to-test-a-campaign.html",
+    "status": 200,
+    "final": "https://qdnco.com/answers/how-long-to-test-a-campaign.html"
+  },
+  {
+    "url": "https://qdnco.com/answers/how-many-creatives-should-a-launch-test.html",
+    "status": 200,
+    "final": "https://qdnco.com/answers/how-many-creatives-should-a-launch-test.html"
+  },
+  {
+    "url": "https://qdnco.com/answers/how-many-leads-per-booking.html",
+    "status": 200,
+    "final": "https://qdnco.com/answers/how-many-leads-per-booking.html"
+  },
+  {
+    "url": "https://qdnco.com/answers/how-much-does-a-real-estate-marketing-agency-cost.html",
+    "status": 200,
+    "final": "https://qdnco.com/answers/how-much-does-a-real-estate-marketing-agency-cost.html"
+  },
+  {
+    "url": "https://qdnco.com/answers/how-to-choose-real-estate-agency.html",
+    "status": 200,
+    "final": "https://qdnco.com/answers/how-to-choose-real-estate-agency.html"
+  },
+  {
+    "url": "https://qdnco.com/answers/how-to-market-a-plotted-development.html",
+    "status": 200,
+    "final": "https://qdnco.com/answers/how-to-market-a-plotted-development.html"
+  },
+  {
+    "url": "https://qdnco.com/answers/how-to-market-commercial-property.html",
+    "status": 200,
+    "final": "https://qdnco.com/answers/how-to-market-commercial-property.html"
+  },
+  {
+    "url": "https://qdnco.com/answers/in-house-or-agency-real-estate-marketing.html",
+    "status": 200,
+    "final": "https://qdnco.com/answers/in-house-or-agency-real-estate-marketing.html"
+  },
+  {
+    "url": "https://qdnco.com/answers/index.html",
+    "status": 200,
+    "final": "https://qdnco.com/answers/index.html"
+  },
+  {
+    "url": "https://qdnco.com/answers/meta-ads-real-estate-basics.html",
+    "status": 200,
+    "final": "https://qdnco.com/answers/meta-ads-real-estate-basics.html"
+  },
+  {
+    "url": "https://qdnco.com/answers/meta-ads-vs-google-ads-real-estate.html",
+    "status": 200,
+    "final": "https://qdnco.com/answers/meta-ads-vs-google-ads-real-estate.html"
+  },
+  {
+    "url": "https://qdnco.com/answers/minimum-budget-real-estate-marketing.html",
+    "status": 200,
+    "final": "https://qdnco.com/answers/minimum-budget-real-estate-marketing.html"
+  },
+  {
+    "url": "https://qdnco.com/answers/mysore-tier-2-real-estate-marketing.html",
+    "status": 200,
+    "final": "https://qdnco.com/answers/mysore-tier-2-real-estate-marketing.html"
+  },
+  {
+    "url": "https://qdnco.com/answers/real-estate-crm-lead-funnel-basics.html",
+    "status": 200,
+    "final": "https://qdnco.com/answers/real-estate-crm-lead-funnel-basics.html"
+  },
+  {
+    "url": "https://qdnco.com/answers/real-estate-marketing-bangalore-catchments.html",
+    "status": 200,
+    "final": "https://qdnco.com/answers/real-estate-marketing-bangalore-catchments.html"
+  },
+  {
+    "url": "https://qdnco.com/answers/rera-advertising-rules.html",
+    "status": 200,
+    "final": "https://qdnco.com/answers/rera-advertising-rules.html"
+  },
+  {
+    "url": "https://qdnco.com/answers/should-developers-use-ai-creatives.html",
+    "status": 200,
+    "final": "https://qdnco.com/answers/should-developers-use-ai-creatives.html"
+  },
+  {
+    "url": "https://qdnco.com/answers/should-i-advertise-before-rera.html",
+    "status": 200,
+    "final": "https://qdnco.com/answers/should-i-advertise-before-rera.html"
+  },
+  {
+    "url": "https://qdnco.com/answers/should-i-advertise-on-99acres-magicbricks-housing.html",
+    "status": 200,
+    "final": "https://qdnco.com/answers/should-i-advertise-on-99acres-magicbricks-housing.html"
+  },
+  {
+    "url": "https://qdnco.com/answers/what-counts-as-qualified-lead.html",
+    "status": 200,
+    "final": "https://qdnco.com/answers/what-counts-as-qualified-lead.html"
+  },
+  {
+    "url": "https://qdnco.com/answers/what-do-you-need-from-me-to-start.html",
+    "status": 200,
+    "final": "https://qdnco.com/answers/what-do-you-need-from-me-to-start.html"
+  },
+  {
+    "url": "https://qdnco.com/answers/what-does-qd-and-co-charge.html",
+    "status": 200,
+    "final": "https://qdnco.com/answers/what-does-qd-and-co-charge.html"
+  },
+  {
+    "url": "https://qdnco.com/answers/what-happens-if-leads-dont-convert.html",
+    "status": 200,
+    "final": "https://qdnco.com/answers/what-happens-if-leads-dont-convert.html"
+  },
+  {
+    "url": "https://qdnco.com/answers/what-is-a-good-site-visit-ratio.html",
+    "status": 200,
+    "final": "https://qdnco.com/answers/what-is-a-good-site-visit-ratio.html"
+  },
+  {
+    "url": "https://qdnco.com/answers/what-is-generative-engine-optimisation.html",
+    "status": 200,
+    "final": "https://qdnco.com/answers/what-is-generative-engine-optimisation.html"
+  },
+  {
+    "url": "https://qdnco.com/answers/what-is-good-cost-per-lead-bangalore.html",
+    "status": 200,
+    "final": "https://qdnco.com/answers/what-is-good-cost-per-lead-bangalore.html"
+  },
+  {
+    "url": "https://qdnco.com/answers/what-is-in-the-weekly-report.html",
+    "status": 200,
+    "final": "https://qdnco.com/answers/what-is-in-the-weekly-report.html"
+  },
+  {
+    "url": "https://qdnco.com/answers/what-is-phase-0.html",
+    "status": 200,
+    "final": "https://qdnco.com/answers/what-is-phase-0.html"
+  },
+  {
+    "url": "https://qdnco.com/answers/what-is-sales-ready-percentage.html",
+    "status": 200,
+    "final": "https://qdnco.com/answers/what-is-sales-ready-percentage.html"
+  },
+  {
+    "url": "https://qdnco.com/answers/what-is-the-retainer-package.html",
+    "status": 200,
+    "final": "https://qdnco.com/answers/what-is-the-retainer-package.html"
+  },
+  {
+    "url": "https://qdnco.com/answers/who-is-v-sai-kavshik.html",
+    "status": 200,
+    "final": "https://qdnco.com/answers/who-is-v-sai-kavshik.html"
+  },
+  {
+    "url": "https://qdnco.com/answers/who-pays-for-the-ad-spend.html",
+    "status": 200,
+    "final": "https://qdnco.com/answers/who-pays-for-the-ad-spend.html"
+  },
+  {
+    "url": "https://qdnco.com/answers/why-550-per-qualified-lead.html",
+    "status": 200,
+    "final": "https://qdnco.com/answers/why-550-per-qualified-lead.html"
+  },
+  {
+    "url": "https://qdnco.com/answers/why-are-my-leads-bad.html",
+    "status": 200,
+    "final": "https://qdnco.com/answers/why-are-my-leads-bad.html"
+  },
+  {
+    "url": "https://qdnco.com/answers/why-did-my-cost-per-lead-increase.html",
+    "status": 200,
+    "final": "https://qdnco.com/answers/why-did-my-cost-per-lead-increase.html"
+  },
+  {
+    "url": "https://qdnco.com/areas/east-bangalore.html",
+    "status": 200,
+    "final": "https://qdnco.com/areas/east-bangalore.html"
+  },
+  {
+    "url": "https://qdnco.com/areas/index.html",
+    "status": 200,
+    "final": "https://qdnco.com/areas/index.html"
+  },
+  {
+    "url": "https://qdnco.com/areas/karnataka-tier-2.html",
+    "status": 200,
+    "final": "https://qdnco.com/areas/karnataka-tier-2.html"
+  },
+  {
+    "url": "https://qdnco.com/areas/mysore.html",
+    "status": 200,
+    "final": "https://qdnco.com/areas/mysore.html"
+  },
+  {
+    "url": "https://qdnco.com/areas/north-bangalore.html",
+    "status": 200,
+    "final": "https://qdnco.com/areas/north-bangalore.html"
+  },
+  {
+    "url": "https://qdnco.com/areas/south-bangalore.html",
+    "status": 200,
+    "final": "https://qdnco.com/areas/south-bangalore.html"
+  },
+  {
+    "url": "https://qdnco.com/areas/west-bangalore.html",
+    "status": 200,
+    "final": "https://qdnco.com/areas/west-bangalore.html"
+  },
+  {
+    "url": "https://qdnco.com/compare/ai-creative-volume-vs-studio-production.html",
+    "status": 200,
+    "final": "https://qdnco.com/compare/ai-creative-volume-vs-studio-production.html"
+  },
+  {
+    "url": "https://qdnco.com/compare/buying-leads-vs-generating-them.html",
+    "status": 200,
+    "final": "https://qdnco.com/compare/buying-leads-vs-generating-them.html"
+  },
+  {
+    "url": "https://qdnco.com/compare/cpql-vs-retainer-agency.html",
+    "status": 200,
+    "final": "https://qdnco.com/compare/cpql-vs-retainer-agency.html"
+  },
+  {
+    "url": "https://qdnco.com/compare/in-house-vs-agency-real-estate.html",
+    "status": 200,
+    "final": "https://qdnco.com/compare/in-house-vs-agency-real-estate.html"
+  },
+  {
+    "url": "https://qdnco.com/compare/index.html",
+    "status": 200,
+    "final": "https://qdnco.com/compare/index.html"
+  },
+  {
+    "url": "https://qdnco.com/compare/performance-marketing-vs-channel-partner.html",
+    "status": 200,
+    "final": "https://qdnco.com/compare/performance-marketing-vs-channel-partner.html"
+  },
+  {
+    "url": "https://qdnco.com/data/bangalore-developer-marketing-market-size.html",
+    "status": 200,
+    "final": "https://qdnco.com/data/bangalore-developer-marketing-market-size.html"
+  },
+  {
+    "url": "https://qdnco.com/data/index.html",
+    "status": 200,
+    "final": "https://qdnco.com/data/index.html"
+  },
+  {
+    "url": "https://qdnco.com/data/india-dubai-buyer-acquisition-report.html",
+    "status": 200,
+    "final": "https://qdnco.com/data/india-dubai-buyer-acquisition-report.html"
+  },
+  {
+    "url": "https://qdnco.com/data/meta-ad-library-audit-bangalore-agencies.html",
+    "status": 200,
+    "final": "https://qdnco.com/data/meta-ad-library-audit-bangalore-agencies.html"
+  },
+  {
+    "url": "https://qdnco.com/data/meta-ad-library-audit-dubai-real-estate.html",
+    "status": 200,
+    "final": "https://qdnco.com/data/meta-ad-library-audit-dubai-real-estate.html"
+  },
+  {
+    "url": "https://qdnco.com/data/real-estate-cost-per-lead-benchmarks.html",
+    "status": 200,
+    "final": "https://qdnco.com/data/real-estate-cost-per-lead-benchmarks.html"
+  },
+  {
+    "url": "https://qdnco.com/dubai/",
+    "status": 200,
+    "final": "https://qdnco.com/dubai/"
+  },
+  {
+    "url": "https://qdnco.com/dubai/indian-buyers/",
+    "status": 200,
+    "final": "https://qdnco.com/dubai/indian-buyers/"
+  },
+  {
+    "url": "https://qdnco.com/dubai/indian-real-estate-performance-marketing-agency/",
+    "status": 200,
+    "final": "https://qdnco.com/dubai/indian-real-estate-performance-marketing-agency/"
+  },
+  {
+    "url": "https://qdnco.com/dubai/meta-google-ads-dubai-property-india/",
+    "status": 200,
+    "final": "https://qdnco.com/dubai/meta-google-ads-dubai-property-india/"
+  },
+  {
+    "url": "https://qdnco.com/dubai/nri-hni-real-estate-marketing/",
+    "status": 200,
+    "final": "https://qdnco.com/dubai/nri-hni-real-estate-marketing/"
+  },
+  {
+    "url": "https://qdnco.com/dubai/off-plan-launch-marketing/",
+    "status": 200,
+    "final": "https://qdnco.com/dubai/off-plan-launch-marketing/"
+  },
+  {
+    "url": "https://qdnco.com/dubai/off-plan-marketing-indian-buyers/",
+    "status": 200,
+    "final": "https://qdnco.com/dubai/off-plan-marketing-indian-buyers/"
+  },
+  {
+    "url": "https://qdnco.com/dubai/property-lead-generation-from-india/",
+    "status": 200,
+    "final": "https://qdnco.com/dubai/property-lead-generation-from-india/"
+  },
+  {
+    "url": "https://qdnco.com/dubai/real-estate-lead-generation/",
+    "status": 200,
+    "final": "https://qdnco.com/dubai/real-estate-lead-generation/"
+  },
+  {
+    "url": "https://qdnco.com/dubai/real-estate-marketing/",
+    "status": 200,
+    "final": "https://qdnco.com/dubai/real-estate-marketing/"
+  },
+  {
+    "url": "https://qdnco.com/dubai/trakheesi-permit-guide/",
+    "status": 200,
+    "final": "https://qdnco.com/dubai/trakheesi-permit-guide/"
+  },
+  {
+    "url": "https://qdnco.com/glossary/index.html",
+    "status": 200,
+    "final": "https://qdnco.com/glossary/index.html"
+  },
+  {
+    "url": "https://qdnco.com/guides/ai-creative-volume-vs-traditional-agency.html",
+    "status": 200,
+    "final": "https://qdnco.com/guides/ai-creative-volume-vs-traditional-agency.html"
+  },
+  {
+    "url": "https://qdnco.com/guides/channel-partner-vs-direct-demand.html",
+    "status": 200,
+    "final": "https://qdnco.com/guides/channel-partner-vs-direct-demand.html"
+  },
+  {
+    "url": "https://qdnco.com/guides/cost-per-qualified-lead-real-estate.html",
+    "status": 200,
+    "final": "https://qdnco.com/guides/cost-per-qualified-lead-real-estate.html"
+  },
+  {
+    "url": "https://qdnco.com/guides/facebook-ads-for-real-estate-agents-india.html",
+    "status": 200,
+    "final": "https://qdnco.com/guides/facebook-ads-for-real-estate-agents-india.html"
+  },
+  {
+    "url": "https://qdnco.com/guides/google-ads-for-real-estate-brokers.html",
+    "status": 200,
+    "final": "https://qdnco.com/guides/google-ads-for-real-estate-brokers.html"
+  },
+  {
+    "url": "https://qdnco.com/guides/google-ads-for-real-estate.html",
+    "status": 200,
+    "final": "https://qdnco.com/guides/google-ads-for-real-estate.html"
+  },
+  {
+    "url": "https://qdnco.com/guides/how-much-should-a-developer-spend.html",
+    "status": 200,
+    "final": "https://qdnco.com/guides/how-much-should-a-developer-spend.html"
+  },
+  {
+    "url": "https://qdnco.com/guides/how-to-get-real-estate-leads-without-portals.html",
+    "status": 200,
+    "final": "https://qdnco.com/guides/how-to-get-real-estate-leads-without-portals.html"
+  },
+  {
+    "url": "https://qdnco.com/guides/index.html",
+    "status": 200,
+    "final": "https://qdnco.com/guides/index.html"
+  },
+  {
+    "url": "https://qdnco.com/guides/meta-ads-for-real-estate-launches.html",
+    "status": 200,
+    "final": "https://qdnco.com/guides/meta-ads-for-real-estate-launches.html"
+  },
+  {
+    "url": "https://qdnco.com/guides/pre-launch-eoi-playbook.html",
+    "status": 200,
+    "final": "https://qdnco.com/guides/pre-launch-eoi-playbook.html"
+  },
+  {
+    "url": "https://qdnco.com/guides/real-estate-crm-and-lead-funnel.html",
+    "status": 200,
+    "final": "https://qdnco.com/guides/real-estate-crm-and-lead-funnel.html"
+  },
+  {
+    "url": "https://qdnco.com/guides/real-estate-lead-cost-for-brokers.html",
+    "status": 200,
+    "final": "https://qdnco.com/guides/real-estate-lead-cost-for-brokers.html"
+  },
+  {
+    "url": "https://qdnco.com/guides/real-estate-leads-for-channel-partners.html",
+    "status": 200,
+    "final": "https://qdnco.com/guides/real-estate-leads-for-channel-partners.html"
+  },
+  {
+    "url": "https://qdnco.com/guides/real-estate-objection-handling-dubai.html",
+    "status": 200,
+    "final": "https://qdnco.com/guides/real-estate-objection-handling-dubai.html"
+  },
+  {
+    "url": "https://qdnco.com/guides/real-estate-objection-handling-india.html",
+    "status": 200,
+    "final": "https://qdnco.com/guides/real-estate-objection-handling-india.html"
+  },
+  {
+    "url": "https://qdnco.com/guides/real-estate-performance-marketing-bangalore.html",
+    "status": 200,
+    "final": "https://qdnco.com/guides/real-estate-performance-marketing-bangalore.html"
+  },
+  {
+    "url": "https://qdnco.com/guides/rera-compliant-advertising.html",
+    "status": 200,
+    "final": "https://qdnco.com/guides/rera-compliant-advertising.html"
+  },
+  {
+    "url": "https://qdnco.com/guides/what-counts-as-a-qualified-lead.html",
+    "status": 200,
+    "final": "https://qdnco.com/guides/what-counts-as-a-qualified-lead.html"
+  },
+  {
+    "url": "https://qdnco.com/guides/whatsapp-follow-up-real-estate-leads.html",
+    "status": 200,
+    "final": "https://qdnco.com/guides/whatsapp-follow-up-real-estate-leads.html"
+  },
+  {
+    "url": "https://qdnco.com/pricing/index.html",
+    "status": 200,
+    "final": "https://qdnco.com/pricing/index.html"
+  },
+  {
+    "url": "https://qdnco.com/tools/real-estate-lead-cost-calculator.html",
+    "status": 200,
+    "final": "https://qdnco.com/tools/real-estate-lead-cost-calculator.html"
+  },
+  {
+    "url": "https://qdnco.com/work/brigade-eternia.html",
+    "status": 200,
+    "final": "https://qdnco.com/work/brigade-eternia.html"
+  },
+  {
+    "url": "https://qdnco.com/work/brigade-granada.html",
+    "status": 200,
+    "final": "https://qdnco.com/work/brigade-granada.html"
+  },
+  {
+    "url": "https://qdnco.com/work/brigade-jeevan-sandya.html",
+    "status": 200,
+    "final": "https://qdnco.com/work/brigade-jeevan-sandya.html"
+  },
+  {
+    "url": "https://qdnco.com/work/brigade-vanagaram.html",
+    "status": 200,
+    "final": "https://qdnco.com/work/brigade-vanagaram.html"
+  },
+  {
+    "url": "https://qdnco.com/work/godrej-msr-city.html",
+    "status": 200,
+    "final": "https://qdnco.com/work/godrej-msr-city.html"
+  },
+  {
+    "url": "https://qdnco.com/work/godrej-tiara.html",
+    "status": 200,
+    "final": "https://qdnco.com/work/godrej-tiara.html"
+  },
+  {
+    "url": "https://qdnco.com/work/godrej-woodscapes.html",
+    "status": 200,
+    "final": "https://qdnco.com/work/godrej-woodscapes.html"
+  },
+  {
+    "url": "https://qdnco.com/work/index.html",
+    "status": 200,
+    "final": "https://qdnco.com/work/index.html"
+  },
+  {
+    "url": "https://qdnco.com/work/indium-north-bangalore.html",
+    "status": 200,
+    "final": "https://qdnco.com/work/indium-north-bangalore.html"
+  },
+  {
+    "url": "https://qdnco.com/work/kumar-platina.html",
+    "status": 200,
+    "final": "https://qdnco.com/work/kumar-platina.html"
+  },
+  {
+    "url": "https://qdnco.com/work/logiclaunch.html",
+    "status": 200,
+    "final": "https://qdnco.com/work/logiclaunch.html"
+  },
+  {
+    "url": "https://qdnco.com/work/marga-education.html",
+    "status": 200,
+    "final": "https://qdnco.com/work/marga-education.html"
+  },
+  {
+    "url": "https://qdnco.com/work/nambiar-bannerghatta.html",
+    "status": 200,
+    "final": "https://qdnco.com/work/nambiar-bannerghatta.html"
+  },
+  {
+    "url": "https://qdnco.com/work/netri-lms.html",
+    "status": 200,
+    "final": "https://qdnco.com/work/netri-lms.html"
+  },
+  {
+    "url": "https://qdnco.com/work/nikoo-homes-9.html",
+    "status": 200,
+    "final": "https://qdnco.com/work/nikoo-homes-9.html"
+  },
+  {
+    "url": "https://qdnco.com/work/roboprenr.html",
+    "status": 200,
+    "final": "https://qdnco.com/work/roboprenr.html"
+  },
+  {
+    "url": "https://qdnco.com/work/urbanrise-paradise-on-earth.html",
+    "status": 200,
+    "final": "https://qdnco.com/work/urbanrise-paradise-on-earth.html"
+  },
+  {
+    "url": "https://qdnco.com/work/vaishnavi-life-mysore.html",
+    "status": 200,
+    "final": "https://qdnco.com/work/vaishnavi-life-mysore.html"
+  },
+  {
+    "url": "https://qdnco.com/work/vajram-kogilu.html",
+    "status": 200,
+    "final": "https://qdnco.com/work/vajram-kogilu.html"
+  }
+]

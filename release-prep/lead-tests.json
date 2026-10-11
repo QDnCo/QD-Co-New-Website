@@ -1,0 +1,11 @@
+{
+  "passed": [
+    "new form maps to legacy required fields",
+    "extra enquiry fields survive backend normalization",
+    "local-host submission blocked",
+    "success event only after confirmed receipt",
+    "failed receipt shows retry without conversion event",
+    "invalid phone rejected"
+  ],
+  "externalRequests": 0
+}

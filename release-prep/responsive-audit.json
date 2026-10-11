@@ -1,0 +1,332 @@
+{
+  "checks": [
+    {
+      "size": {
+        "width": 320,
+        "height": 740
+      },
+      "route": "index.html",
+      "over": []
+    },
+    {
+      "size": {
+        "width": 320,
+        "height": 740
+      },
+      "route": "about.html",
+      "over": []
+    },
+    {
+      "size": {
+        "width": 320,
+        "height": 740
+      },
+      "route": "work.html",
+      "over": []
+    },
+    {
+      "size": {
+        "width": 320,
+        "height": 740
+      },
+      "route": "contact.html",
+      "over": []
+    },
+    {
+      "size": {
+        "width": 320,
+        "height": 740
+      },
+      "route": "dubai-about.html",
+      "over": []
+    },
+    {
+      "size": {
+        "width": 320,
+        "height": 740
+      },
+      "route": "dubai-work.html",
+      "over": []
+    },
+    {
+      "size": {
+        "width": 320,
+        "height": 740
+      },
+      "route": "dubai-contact.html",
+      "over": []
+    },
+    {
+      "size": {
+        "width": 320,
+        "height": 740
+      },
+      "route": "resources.html",
+      "over": []
+    },
+    {
+      "size": {
+        "width": 820,
+        "height": 1180
+      },
+      "route": "index.html",
+      "over": []
+    },
+    {
+      "size": {
+        "width": 820,
+        "height": 1180
+      },
+      "route": "about.html",
+      "over": []
+    },
+    {
+      "size": {
+        "width": 820,
+        "height": 1180
+      },
+      "route": "work.html",
+      "over": []
+    },
+    {
+      "size": {
+        "width": 820,
+        "height": 1180
+      },
+      "route": "contact.html",
+      "over": []
+    },
+    {
+      "size": {
+        "width": 820,
+        "height": 1180
+      },
+      "route": "dubai-about.html",
+      "over": []
+    },
+    {
+      "size": {
+        "width": 820,
+        "height": 1180
+      },
+      "route": "dubai-work.html",
+      "over": []
+    },
+    {
+      "size": {
+        "width": 820,
+        "height": 1180
+      },
+      "route": "dubai-contact.html",
+      "over": []
+    },
+    {
+      "size": {
+        "width": 820,
+        "height": 1180
+      },
+      "route": "resources.html",
+      "over": []
+    },
+    {
+      "size": {
+        "width": 844,
+        "height": 390
+      },
+      "route": "index.html",
+      "over": []
+    },
+    {
+      "size": {
+        "width": 844,
+        "height": 390
+      },
+      "route": "about.html",
+      "over": []
+    },
+    {
+      "size": {
+        "width": 844,
+        "height": 390
+      },
+      "route": "work.html",
+      "over": []
+    },
+    {
+      "size": {
+        "width": 844,
+        "height": 390
+      },
+      "route": "contact.html",
+      "over": []
+    },
+    {
+      "size": {
+        "width": 844,
+        "height": 390
+      },
+      "route": "dubai-about.html",
+      "over": []
+    },
+    {
+      "size": {
+        "width": 844,
+        "height": 390
+      },
+      "route": "dubai-work.html",
+      "over": []
+    },
+    {
+      "size": {
+        "width": 844,
+        "height": 390
+      },
+      "route": "dubai-contact.html",
+      "over": []
+    },
+    {
+      "size": {
+        "width": 844,
+        "height": 390
+      },
+      "route": "resources.html",
+      "over": []
+    },
+    {
+      "size": {
+        "width": 1366,
+        "height": 768
+      },
+      "route": "index.html",
+      "over": []
+    },
+    {
+      "size": {
+        "width": 1366,
+        "height": 768
+      },
+      "route": "about.html",
+      "over": []
+    },
+    {
+      "size": {
+        "width": 1366,
+        "height": 768
+      },
+      "route": "work.html",
+      "over": []
+    },
+    {
+      "size": {
+        "width": 1366,
+        "height": 768
+      },
+      "route": "contact.html",
+      "over": []
+    },
+    {
+      "size": {
+        "width": 1366,
+        "height": 768
+      },
+      "route": "dubai-about.html",
+      "over": []
+    },
+    {
+      "size": {
+        "width": 1366,
+        "height": 768
+      },
+      "route": "dubai-work.html",
+      "over": []
+    },
+    {
+      "size": {
+        "width": 1366,
+        "height": 768
+      },
+      "route": "dubai-contact.html",
+      "over": []
+    },
+    {
+      "size": {
+        "width": 1366,
+        "height": 768
+      },
+      "route": "resources.html",
+      "over": []
+    },
+    {
+      "size": {
+        "width": 2560,
+        "height": 1440
+      },
+      "route": "index.html",
+      "over": []
+    },
+    {
+      "size": {
+        "width": 2560,
+        "height": 1440
+      },
+      "route": "about.html",
+      "over": []
+    },
+    {
+      "size": {
+        "width": 2560,
+        "height": 1440
+      },
+      "route": "work.html",
+      "over": []
+    },
+    {
+      "size": {
+        "width": 2560,
+        "height": 1440
+      },
+      "route": "contact.html",
+      "over": []
+    },
+    {
+      "size": {
+        "width": 2560,
+        "height": 1440
+      },
+      "route": "dubai-about.html",
+      "over": []
+    },
+    {
+      "size": {
+        "width": 2560,
+        "height": 1440
+      },
+      "route": "dubai-work.html",
+      "over": []
+    },
+    {
+      "size": {
+        "width": 2560,
+        "height": 1440
+      },
+      "route": "dubai-contact.html",
+      "over": []
+    },
+    {
+      "size": {
+        "width": 2560,
+        "height": 1440
+      },
+      "route": "resources.html",
+      "over": []
+    }
+  ],
+  "interactions": [
+    "Service accordion opens with aria-expanded=true",
+    "India 3 campaigns calculates INR45600",
+    "Landing Pages switches to custom quote",
+    "Resources menu opens within mobile viewport",
+    "Mobile case-study layout checked"
+  ],
+  "scope": "Chrome responsive viewport checks, not physical-device testing"
+}

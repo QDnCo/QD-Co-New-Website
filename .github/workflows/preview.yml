@@ -1,0 +1,60 @@
+name: Validate and update private preview
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+permissions:
+  contents: read
+concurrency:
+  group: private-preview
+  cancel-in-progress: false
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+          cache: npm
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: npm ci
+      - run: python -m pip install -r requirements.txt
+      - run: npm run build
+      - name: Confirm preview remains noindex and non-production
+        run: |
+          python - <<'PYTHON'
+          from pathlib import Path
+          p=Path('/tmp/qdnco-share-preview-20261011')
+          assert 'Disallow: /' in (p/'robots.txt').read_text()
+          assert 'noindex' in (p/'index.html').read_text()
+          assert 'Preview enquiry flow' in (p/'contact.html').read_text()
+          PYTHON
+      - uses: actions/upload-artifact@v4
+        with:
+          name: private-preview
+          path: /tmp/qdnco-share-preview-20261011/
+          retention-days: 7
+  deploy-preview:
+    needs: build
+    if: github.ref == 'refs/heads/main'
+    runs-on: [self-hosted, macOS, ARM64, qdnco-preview]
+    steps:
+      - uses: actions/download-artifact@v4
+        with:
+          name: private-preview
+          path: ${{ runner.temp }}/qdnco-preview-package
+      - name: Update only the existing temporary preview
+        env:
+          PACKAGE: ${{ runner.temp }}/qdnco-preview-package
+        run: |
+          set -eu
+          test -f "$PACKAGE/index.html"
+          grep -q noindex "$PACKAGE/index.html"
+          grep -q 'Disallow: /' "$PACKAGE/robots.txt"
+          mkdir -p /tmp/qdnco-share-preview-20261011
+          rsync -a "$PACKAGE/" /tmp/qdnco-share-preview-20261011/
+          curl --fail --silent http://localhost:8770/index.html -o "$RUNNER_TEMP/qdnco-served.html"
+          cmp "$PACKAGE/index.html" "$RUNNER_TEMP/qdnco-served.html"

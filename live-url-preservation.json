@@ -1,0 +1,314 @@
+{
+  "checked": "2026-10-10",
+  "source": "https://qdnco.com/sitemap.xml",
+  "rule": "Preserve these public URLs at launch; no replacement of content directories by the redesign build.",
+  "urls": [
+    "https://qdnco.com/",
+    "https://qdnco.com/pricing/index.html",
+    "https://qdnco.com/work/index.html",
+    "https://qdnco.com/work/brigade-eternia.html",
+    "https://qdnco.com/work/brigade-granada.html",
+    "https://qdnco.com/work/brigade-jeevan-sandya.html",
+    "https://qdnco.com/work/brigade-vanagaram.html",
+    "https://qdnco.com/work/godrej-msr-city.html",
+    "https://qdnco.com/work/godrej-tiara.html",
+    "https://qdnco.com/work/godrej-woodscapes.html",
+    "https://qdnco.com/work/indium-north-bangalore.html",
+    "https://qdnco.com/work/kumar-platina.html",
+    "https://qdnco.com/work/logiclaunch.html",
+    "https://qdnco.com/work/marga-education.html",
+    "https://qdnco.com/work/nambiar-bannerghatta.html",
+    "https://qdnco.com/work/netri-lms.html",
+    "https://qdnco.com/work/nikoo-homes-9.html",
+    "https://qdnco.com/work/roboprenr.html",
+    "https://qdnco.com/work/urbanrise-paradise-on-earth.html",
+    "https://qdnco.com/work/vaishnavi-life-mysore.html",
+    "https://qdnco.com/work/vajram-kogilu.html",
+    "https://qdnco.com/guides/index.html",
+    "https://qdnco.com/guides/ai-creative-volume-vs-traditional-agency.html",
+    "https://qdnco.com/guides/channel-partner-vs-direct-demand.html",
+    "https://qdnco.com/guides/cost-per-qualified-lead-real-estate.html",
+    "https://qdnco.com/guides/google-ads-for-real-estate.html",
+    "https://qdnco.com/guides/how-much-should-a-developer-spend.html",
+    "https://qdnco.com/guides/meta-ads-for-real-estate-launches.html",
+    "https://qdnco.com/guides/pre-launch-eoi-playbook.html",
+    "https://qdnco.com/guides/real-estate-crm-and-lead-funnel.html",
+    "https://qdnco.com/guides/real-estate-performance-marketing-bangalore.html",
+    "https://qdnco.com/guides/rera-compliant-advertising.html",
+    "https://qdnco.com/guides/what-counts-as-a-qualified-lead.html",
+    "https://qdnco.com/answers/index.html",
+    "https://qdnco.com/answers/agency-vs-channel-partner.html",
+    "https://qdnco.com/answers/are-ad-creatives-charged-extra.html",
+    "https://qdnco.com/answers/best-time-to-launch-a-real-estate-campaign.html",
+    "https://qdnco.com/answers/can-you-work-with-my-existing-agency.html",
+    "https://qdnco.com/answers/difference-between-lead-and-enquiry.html",
+    "https://qdnco.com/answers/do-i-need-a-landing-page.html",
+    "https://qdnco.com/answers/do-you-guarantee-leads-or-bookings.html",
+    "https://qdnco.com/answers/do-you-work-outside-real-estate.html",
+    "https://qdnco.com/answers/google-ads-real-estate-basics.html",
+    "https://qdnco.com/answers/how-fast-should-leads-be-called.html",
+    "https://qdnco.com/answers/how-long-before-leads-start.html",
+    "https://qdnco.com/answers/how-long-to-test-a-campaign.html",
+    "https://qdnco.com/answers/how-many-creatives-should-a-launch-test.html",
+    "https://qdnco.com/answers/how-many-leads-per-booking.html",
+    "https://qdnco.com/answers/how-much-does-a-real-estate-marketing-agency-cost.html",
+    "https://qdnco.com/answers/how-to-choose-real-estate-agency.html",
+    "https://qdnco.com/answers/how-to-market-a-plotted-development.html",
+    "https://qdnco.com/answers/how-to-market-commercial-property.html",
+    "https://qdnco.com/answers/in-house-or-agency-real-estate-marketing.html",
+    "https://qdnco.com/answers/meta-ads-real-estate-basics.html",
+    "https://qdnco.com/answers/meta-ads-vs-google-ads-real-estate.html",
+    "https://qdnco.com/answers/minimum-budget-real-estate-marketing.html",
+    "https://qdnco.com/answers/mysore-tier-2-real-estate-marketing.html",
+    "https://qdnco.com/answers/real-estate-crm-lead-funnel-basics.html",
+    "https://qdnco.com/answers/real-estate-marketing-bangalore-catchments.html",
+    "https://qdnco.com/answers/rera-advertising-rules.html",
+    "https://qdnco.com/answers/should-developers-use-ai-creatives.html",
+    "https://qdnco.com/answers/should-i-advertise-before-rera.html",
+    "https://qdnco.com/answers/should-i-advertise-on-99acres-magicbricks-housing.html",
+    "https://qdnco.com/answers/what-counts-as-qualified-lead.html",
+    "https://qdnco.com/answers/what-do-you-need-from-me-to-start.html",
+    "https://qdnco.com/answers/what-does-qd-and-co-charge.html",
+    "https://qdnco.com/answers/what-happens-if-leads-dont-convert.html",
+    "https://qdnco.com/answers/what-is-a-good-site-visit-ratio.html",
+    "https://qdnco.com/answers/what-is-generative-engine-optimisation.html",
+    "https://qdnco.com/answers/what-is-good-cost-per-lead-bangalore.html",
+    "https://qdnco.com/answers/what-is-in-the-weekly-report.html",
+    "https://qdnco.com/answers/what-is-phase-0.html",
+    "https://qdnco.com/answers/what-is-sales-ready-percentage.html",
+    "https://qdnco.com/answers/what-is-the-retainer-package.html",
+    "https://qdnco.com/answers/who-is-v-sai-kavshik.html",
+    "https://qdnco.com/answers/who-pays-for-the-ad-spend.html",
+    "https://qdnco.com/answers/why-550-per-qualified-lead.html",
+    "https://qdnco.com/answers/why-are-my-leads-bad.html",
+    "https://qdnco.com/answers/why-did-my-cost-per-lead-increase.html",
+    "https://qdnco.com/data/index.html",
+    "https://qdnco.com/data/bangalore-developer-marketing-market-size.html",
+    "https://qdnco.com/data/meta-ad-library-audit-bangalore-agencies.html",
+    "https://qdnco.com/data/real-estate-cost-per-lead-benchmarks.html",
+    "https://qdnco.com/compare/index.html",
+    "https://qdnco.com/compare/ai-creative-volume-vs-studio-production.html",
+    "https://qdnco.com/compare/buying-leads-vs-generating-them.html",
+    "https://qdnco.com/compare/cpql-vs-retainer-agency.html",
+    "https://qdnco.com/compare/in-house-vs-agency-real-estate.html",
+    "https://qdnco.com/compare/performance-marketing-vs-channel-partner.html",
+    "https://qdnco.com/areas/index.html",
+    "https://qdnco.com/areas/east-bangalore.html",
+    "https://qdnco.com/areas/karnataka-tier-2.html",
+    "https://qdnco.com/areas/mysore.html",
+    "https://qdnco.com/areas/north-bangalore.html",
+    "https://qdnco.com/areas/south-bangalore.html",
+    "https://qdnco.com/areas/west-bangalore.html",
+    "https://qdnco.com/glossary/index.html",
+    "https://qdnco.com/dubai/real-estate-marketing/",
+    "https://qdnco.com/dubai/",
+    "https://qdnco.com/dubai/trakheesi-permit-guide/",
+    "https://qdnco.com/dubai/real-estate-lead-generation/",
+    "https://qdnco.com/dubai/indian-buyers/",
+    "https://qdnco.com/data/meta-ad-library-audit-dubai-real-estate.html",
+    "https://qdnco.com/guides/real-estate-leads-for-channel-partners.html",
+    "https://qdnco.com/guides/how-to-get-real-estate-leads-without-portals.html",
+    "https://qdnco.com/guides/facebook-ads-for-real-estate-agents-india.html",
+    "https://qdnco.com/guides/real-estate-lead-cost-for-brokers.html",
+    "https://qdnco.com/guides/google-ads-for-real-estate-brokers.html",
+    "https://qdnco.com/guides/whatsapp-follow-up-real-estate-leads.html",
+    "https://qdnco.com/dubai/off-plan-launch-marketing/",
+    "https://qdnco.com/about/",
+    "https://qdnco.com/about/editorial-policy.html",
+    "https://qdnco.com/dubai/indian-real-estate-performance-marketing-agency/",
+    "https://qdnco.com/data/india-dubai-buyer-acquisition-report.html",
+    "https://qdnco.com/dubai/property-lead-generation-from-india/",
+    "https://qdnco.com/dubai/nri-hni-real-estate-marketing/",
+    "https://qdnco.com/dubai/off-plan-marketing-indian-buyers/",
+    "https://qdnco.com/dubai/meta-google-ads-dubai-property-india/",
+    "https://qdnco.com/tools/real-estate-lead-cost-calculator.html",
+    "https://qdnco.com/guides/real-estate-objection-handling-india.html",
+    "https://qdnco.com/guides/real-estate-objection-handling-dubai.html"
+  ],
+  "footerGroups": {
+    "Case studies": [
+      [
+        "Read the full case studies \u2192",
+        "https://qdnco.com/work/index.html"
+      ],
+      [
+        "Indium \u2014 \u20b9266 CPL at 51%",
+        "https://qdnco.com/work/indium-north-bangalore.html"
+      ],
+      [
+        "Godrej Woodscapes",
+        "https://qdnco.com/work/godrej-woodscapes.html"
+      ],
+      [
+        "Kumar Platina",
+        "https://qdnco.com/work/kumar-platina.html"
+      ],
+      [
+        "Brigade Eternia",
+        "https://qdnco.com/work/brigade-eternia.html"
+      ],
+      [
+        "Vaishnavi Life Mysore",
+        "https://qdnco.com/work/vaishnavi-life-mysore.html"
+      ],
+      [
+        "Nambiar Bannerghatta",
+        "https://qdnco.com/work/nambiar-bannerghatta.html"
+      ]
+    ],
+    "Guides": [
+      [
+        "guides",
+        "https://qdnco.com/guides/index.html"
+      ],
+      [
+        "AI creative volume vs a traditional agency",
+        "https://qdnco.com/guides/ai-creative-volume-vs-traditional-agency.html"
+      ],
+      [
+        "real cost-per-qualified-lead benchmarks",
+        "https://qdnco.com/guides/cost-per-qualified-lead-real-estate.html"
+      ],
+      [
+        "the written definition of a qualified lead",
+        "https://qdnco.com/guides/what-counts-as-a-qualified-lead.html"
+      ],
+      [
+        "how to size a launch budget",
+        "https://qdnco.com/guides/how-much-should-a-developer-spend.html"
+      ],
+      [
+        "For channel partners & brokers",
+        "https://qdnco.com/guides/real-estate-leads-for-channel-partners.html"
+      ],
+      [
+        "Performance marketing in Bangalore",
+        "https://qdnco.com/guides/real-estate-performance-marketing-bangalore.html"
+      ],
+      [
+        "RERA-compliant advertising",
+        "https://qdnco.com/guides/rera-compliant-advertising.html"
+      ]
+    ],
+    "Research & answers": [
+      [
+        "India \u2192 Dubai buyer report 2026",
+        "https://qdnco.com/data/india-dubai-buyer-acquisition-report.html"
+      ],
+      [
+        "All 45 answers",
+        "https://qdnco.com/answers/index.html"
+      ],
+      [
+        "Original research",
+        "https://qdnco.com/data/index.html"
+      ],
+      [
+        "Meta Ad Library audit \u2014 41 agencies",
+        "https://qdnco.com/data/meta-ad-library-audit-bangalore-agencies.html"
+      ],
+      [
+        "Cost-per-lead benchmarks",
+        "https://qdnco.com/data/real-estate-cost-per-lead-benchmarks.html"
+      ],
+      [
+        "Comparisons",
+        "https://qdnco.com/compare/index.html"
+      ],
+      [
+        "Bengaluru catchments",
+        "https://qdnco.com/areas/index.html"
+      ],
+      [
+        "Glossary",
+        "https://qdnco.com/glossary/index.html"
+      ]
+    ],
+    "Markets & pricing": [
+      [
+        "Selling in Dubai? Go to QDnCo Dubai",
+        "https://qdnco.com/dubai/"
+      ],
+      [
+        "Indian buyers for Dubai property",
+        "https://qdnco.com/dubai/indian-real-estate-performance-marketing-agency/"
+      ],
+      [
+        "About QDnCo",
+        "https://qdnco.com/about/"
+      ],
+      [
+        "Published pricing",
+        "https://qdnco.com/pricing/index.html"
+      ]
+    ],
+    "Legal": [
+      [
+        "Privacy Policy",
+        "https://qdnco.com/legal/privacy.html"
+      ],
+      [
+        "Terms of Use",
+        "https://qdnco.com/legal/terms.html"
+      ],
+      [
+        "Cookie Policy",
+        "https://qdnco.com/legal/cookies.html"
+      ],
+      [
+        "Disclaimer",
+        "https://qdnco.com/legal/disclaimer.html"
+      ],
+      [
+        "Refunds & Cancellation",
+        "https://qdnco.com/legal/refund.html"
+      ],
+      [
+        "Accessibility",
+        "https://qdnco.com/legal/accessibility.html"
+      ]
+    ],
+    "Find QDnCo": [
+      [
+        "LinkedIn",
+        "https://www.linkedin.com/company/qd-co/"
+      ],
+      [
+        "Instagram",
+        "https://www.instagram.com/qdnco.official/"
+      ],
+      [
+        "Facebook",
+        "https://www.facebook.com/qdnco"
+      ],
+      [
+        "X",
+        "https://x.com/qdnco_official"
+      ],
+      [
+        "YouTube",
+        "https://youtube.com/@qdnco"
+      ],
+      [
+        "Google Business Profile",
+        "https://share.google/FodoeqQ5BsOYxikAz"
+      ],
+      [
+        "Clutch",
+        "https://clutch.co/profile/qdnco"
+      ],
+      [
+        "GoodFirms",
+        "https://www.goodfirms.co/company/qdnco"
+      ],
+      [
+        "DesignRush",
+        "https://www.designrush.com/agency/profile/qdnco"
+      ],
+      [
+        "Trustpilot",
+        "https://www.trustpilot.com/review/qdnco.com"
+      ]
+    ]
+  }
+}
