@@ -15,7 +15,7 @@ for folder in ['assets','brands','adreel','shots','team','insights','profile-pre
 print("Temporary share preview refreshed")
 
 # Keep preserved guides and publications branded in the temporary snapshot.
-if (src/'release-prep/shared-header-report.json').exists():
+if (src/'release-prep/shared-header-report.json').exists() and (src/'release-prep/candidate/404.html').exists():
  import sys
  subprocess.run([sys.executable,str(src/'release-prep/preview-branded-pages.py')],check=True)
 
