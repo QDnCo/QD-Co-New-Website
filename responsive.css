@@ -7,17 +7,7 @@ html[data-theme] body .v3 .v3-resource-menu{display:block}
 html[data-theme] body .v3 .v3-resource-menu>div{max-width:calc(100vw - 40px)}
 html[data-theme] body .v3 .v3-service-disclosure h4 button{min-height:64px}
 html[data-theme] body .v3 .v3-disclosure-arrow{flex-shrink:0}
-/* India only: pipeline above, spend and qualification together below. */
-html[data-theme] body .v3:not(.dubai-market) .v3-hero .v3-statbar{
- grid-template-columns:max-content max-content;grid-template-areas:"pipeline pipeline" "spend qualification";
- column-gap:26px;row-gap:16px;width:max-content;max-width:100%;
-}
-html[data-theme] body .v3:not(.dubai-market) .v3-hero .v3-statbar article{display:flex;flex-direction:column;align-items:flex-start;justify-content:flex-start;width:auto;min-height:0;grid-column:auto}
-html[data-theme] body .v3:not(.dubai-market) .v3-hero .v3-statbar article:nth-child(1){grid-area:pipeline}
-html[data-theme] body .v3:not(.dubai-market) .v3-hero .v3-statbar article:nth-child(2){grid-area:qualification}
-html[data-theme] body .v3:not(.dubai-market) .v3-hero .v3-statbar article:nth-child(3){grid-area:spend}
-html[data-theme] body .v3:not(.dubai-market) .v3-hero .v3-statbar p{margin-top:0;max-width:235px}
-html[data-theme] body .v3:not(.dubai-market) .v3-hero .v3-statbar article:nth-child(3) p{max-width:170px}
+/* Hero proof metrics inherit the same layout for India and Dubai. */
 /* Collapse navigation before the controls can collide, not after. */
 @media(max-width:1100px){
  html[data-theme] body .v3 .v3-nav{display:flex;flex-wrap:wrap;top:8px;left:12px;right:12px;padding:10px 14px;gap:8px;max-width:none;border-radius:22px}
@@ -92,7 +82,7 @@ html[data-theme] body .v3:not(.dubai-market) .v3-hero .v3-statbar article:nth-ch
  html[data-theme] body .v3:not(.dubai-market) .v3-hero .v3-eyebrow{font-size:9px;margin-bottom:16px}
  html[data-theme] body .v3:not(.dubai-market) .v3-hero .v3-actions{gap:10px;margin-top:24px}
  html[data-theme] body .v3:not(.dubai-market) .v3-hero .v3-actions .v3-button{font-size:12px;padding:13px 17px;min-height:46px;gap:15px}
- html[data-theme] body .v3:not(.dubai-market) .v3-hero .v3-statbar{grid-template-columns:minmax(0,1fr) minmax(0,1fr);width:100%;gap:18px 20px;margin-top:28px}
+ html[data-theme] body .v3:not(.dubai-market) .v3-hero .v3-statbar{margin-top:28px}
  html[data-theme] body .v3:not(.dubai-market) .v3-hero .v3-statbar strong{font-size:clamp(34px,10vw,46px)}
  html[data-theme] body .v3:not(.dubai-market) .v3-hero .v3-statbar p{font-size:9px;letter-spacing:.04em;max-width:100%;line-height:1.5}
  html[data-theme] body .v3:not(.dubai-market) .v3-hero .v3-caption{font-size:9px;line-height:1.6;margin-top:18px}
