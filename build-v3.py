@@ -15,6 +15,7 @@ css=(P/'v3.css').read_text();s=s.replace('</head>','<style>'+css+'</style></head
 s+=(P/'v3.jsx').read_text()+'\nReactDOM.createRoot(document.getElementById("root")).render(<App/>);\n</script></body></html>'
 s=s.replace('</head>', '<link rel="stylesheet" href="gold-ui.css?v='+hashlib.sha256((P/'gold-ui.css').read_bytes()).hexdigest()[:12]+'"></head>')
 s=s.replace('</head>', '<link rel="stylesheet" href="responsive.css?v='+hashlib.sha256((P/'responsive.css').read_bytes()).hexdigest()[:12]+'"></head>')
+s=s.replace('</head>', '<link rel="stylesheet" href="v4.css?v='+hashlib.sha256((P/'v4.css').read_bytes()).hexdigest()[:12]+'"></head>')
 for n in ['index','india','dubai','about','work','contact','dubai-about','dubai-work','dubai-contact','company-profile']:(P/(n+'.html')).write_text(s)
 for case in json.loads((P/'case-studies.json').read_text()):
  (P/('case-'+case['slug']+'.html')).write_text(s)

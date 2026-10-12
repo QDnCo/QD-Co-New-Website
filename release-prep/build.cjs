@@ -9,7 +9,7 @@ const sha=s=>crypto.createHash('sha256').update(s).digest('hex');
 if(out!==path.join(root,'release-prep/candidate'))throw Error('Unsafe destination');
 fs.mkdirSync(out,{recursive:true});fs.cpSync(live,out,{recursive:true});
 for(const dir of ['assets','brands','adreel','shots','team'])fs.cpSync(path.join(root,dir),path.join(out,'_redesign',dir),{recursive:true,filter:p=>!p.endsWith('.md')});
-for(const file of ['gold-ui.css','responsive.css','case-studies.json'])fs.copyFileSync(path.join(root,file),path.join(out,'_redesign',file));
+for(const file of ['gold-ui.css','responsive.css','v4.css','case-studies.json'])fs.copyFileSync(path.join(root,file),path.join(out,'_redesign',file));
 const cases=JSON.parse(read(root+'/case-studies.json'));
 const profiles=JSON.parse(read(__dirname+'/profiles.json'));
 const route={'index.html':'/','india.html':'/','dubai.html':'/dubai/','about.html':'/about/','work.html':'/work/index.html','contact.html':'/contact/','dubai-about.html':'/dubai/about/','dubai-work.html':'/dubai/work/','dubai-contact.html':'/dubai/contact/','company-profile.html':'/company-profile/','resources.html':'/resources/'};
@@ -42,7 +42,7 @@ head=head.replace(/<title>[\s\S]*?<\/title>/g,'').replace(/<meta\s+(?:name|prope
 head=head.replace(/<script[^>]*src="https:\/\/cdn.tailwindcss.com"[^>]*><\/script>/g,'').replace(/<script[^>]*src="[^"]*babel[^\"]*"[^>]*><\/script>/g,'');
 head=head.replace(/<script>\s*tailwind.config[\s\S]*?<\/script>/g,'');
 head=head.replace(/href="gold-ui.css[^\"]*"/g,'href="/_redesign/gold-ui.css"');head=assetRewrite(head).replaceAll('href="favicon.svg"','href="/favicon.svg"');
-head=head.replace(/href="responsive.css[^\"]*"/g,'href="/_redesign/responsive.css"');
+head=head.replace(/href="responsive.css[^\"]*"/g,'href="/_redesign/responsive.css"');head=head.replace(/href="v4.css[^\"]*"/g,'href="/_redesign/v4.css"');
 const liveHome=read(live+'/index.html');
 const tw=liveHome.match(/<style id="tw-build">([\s\S]*?)<\/style>/);if(tw)head='<style id="tw-build">'+tw[1]+'</style>'+head;
 head+='<style>#boot-loader{display:none}html{scroll-behavior:smooth}</style><noscript><style>[style*="opacity:0"]{opacity:1!important;transform:none!important}.v3-client-questions button{display:none}</style></noscript>';
