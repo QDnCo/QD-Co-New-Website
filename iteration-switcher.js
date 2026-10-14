@@ -1,9 +1,9 @@
-/* Private preview: floating switcher between design iterations 1–10.
+/* Private preview: floating switcher between the shortlisted design iterations.
    Iteration 1 lives in /iteration-1/; 2–10 share the root pages and are chosen with ?iter=N. */
 (function(){
- var NAMES={1:'Original',2:'Ledger',3:'Skyline Noir',4:'Proof First',5:'Editorial',6:'Conversion Desk',7:'Blueprint',8:'Desert Luxe',9:'Bento',10:'Kinetic'};
+ var NAMES={1:'Original',2:'Ledger',3:'Skyline Noir',5:'Editorial',8:'Desert Luxe',9:'Bento'};var KEEP=[1,2,3,5,8,9];
  var me=document.currentScript;
- var cur=+(me&&me.getAttribute('data-iter'))||(function(){try{var q=+new URLSearchParams(location.search).get('iter');if(q>=2&&q<=10)return q;var v=+localStorage.getItem('qd-iter');return v>=2&&v<=10?v:2}catch(e){return 2}})();
+ var cur=+(me&&me.getAttribute('data-iter'))||(function(){try{var q=+new URLSearchParams(location.search).get('iter');if(KEEP.indexOf(q)>0)return q;var v=+localStorage.getItem('qd-iter');return KEEP.indexOf(v)>0?v:2}catch(e){return 2}})();
  var page=(location.pathname.split('/').pop()||'index.html');
  if(!/\.html$/.test(page))page='index.html';
  var href=function(n){return n===1?'/iteration-1/'+page:'/'+page+'?iter='+n+location.hash};
@@ -19,9 +19,9 @@
  document.head.appendChild(css);
  var box=document.createElement('nav');box.className='qd-iter';box.setAttribute('aria-label','Design iterations');
  var btn=document.createElement('button');btn.type='button';btn.setAttribute('aria-expanded','false');
- btn.innerHTML='<b>'+cur+'/10</b>Iteration '+cur+' · '+NAMES[cur]+' ▴';
+ btn.innerHTML='<b>'+cur+'</b>Iteration '+cur+' · '+NAMES[cur]+' ▴';
  var list=document.createElement('ol');list.hidden=true;
- for(var n=1;n<=10;n++){var li=document.createElement('li'),a=document.createElement('a');a.href=href(n);a.innerHTML='<span>'+n+'</span>'+NAMES[n];if(n===cur)a.setAttribute('aria-current','page');li.appendChild(a);list.appendChild(li)}
+ KEEP.forEach(function(n){var li=document.createElement('li'),a=document.createElement('a');a.href=href(n);a.innerHTML='<span>'+n+'</span>'+NAMES[n];if(n===cur)a.setAttribute('aria-current','page');li.appendChild(a);list.appendChild(li)});
  var all=document.createElement('li');all.className='qd-all';all.innerHTML='<a href="/iterations.html"><span>☰</span>Compare all iterations</a>';list.appendChild(all);
  btn.onclick=function(){var o=list.hidden;list.hidden=!o;btn.setAttribute('aria-expanded',String(o))};
  document.addEventListener('keydown',function(e){if(e.key==='Escape'&&!list.hidden){list.hidden=true;btn.setAttribute('aria-expanded','false');btn.focus()}});

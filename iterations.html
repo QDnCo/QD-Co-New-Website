@@ -21,22 +21,18 @@ dl{display:grid;grid-template-columns:auto 1fr;gap:2px 10px;margin:4px 0 0;font-
 .links a:first-child{background:var(--ink);color:var(--bg);border-color:var(--ink)}
 .links a:focus-visible{outline:2px solid var(--gold);outline-offset:2px}
 </style><link rel="icon" type="image/png" sizes="96x96" href="/icon-96.png"><link rel="icon" type="image/svg+xml" href="/favicon.svg"><link rel="shortcut icon" href="/favicon.ico"><link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png"><link rel="manifest" href="/site.webmanifest"></head><body><main>
-<h1>QDnCo website: 10 design iterations</h1>
-<p class="intro">Private preview, not published. Every iteration carries the same content: hero with the developer logo scroll, results, services, ad creatives, portfolio, the 3D roadmap, platforms, the worldwide map, guides, FAQ and the enquiry CTA. Use the switcher at the bottom-left of any page to jump between iterations, and the moon/sun toggle for light and dark.</p>
+<h1>QDnCo website: shortlisted design iterations</h1>
+<p class="intro">Private preview, not published. Every iteration carries the same content: hero with the developer logo scroll, 01 Who we are (founder film), 02 What we do, 03 Who we work with, 04 How we work (3D roadmap), with the brand, creative and platform scroll bridges in between, then the worldwide map, guides, FAQ and the enquiry CTA. Use the switcher at the bottom-left of any page to jump between iterations, and the moon/sun toggle for light and dark.</p>
 <div class="grid" id="grid"></div>
 </main>
 <script>
 const IT=[
-[1,'Original','Your original design (before the redesign). Cream and gold, Inter with italic serif accents, founder film near the top.','Architecture photo + numbers','Expandable service tree','Inter, Instrument Serif, Barlow'],
+[1,'Original','Your original design (before the redesign). Cream and gold, Inter with italic serif accents.','Architecture photo + numbers','Expandable service tree','Inter, Instrument Serif, Barlow'],
 [2,'Ledger','Calm ink-and-brass. Headline beside a moving wall of real ad creatives; numbers ledger and logo scroll in the first screen.','Creative wall','Tabbed service explorer','Clash Display, Satoshi'],
 [3,'Skyline Noir','Cinematic and dark-first. Full-bleed architecture photograph with a champagne accent.','Full-bleed photo','Service cards','Cabinet Grotesk, General Sans'],
-[4,'Proof First','Numbers lead. A giant ₹1,400 Cr, stat cards and a real case result; clean white with a "qualified" green.','Big number + stat stack','Bento services','Bricolage Grotesque, Inter Tight'],
-[5,'Editorial','Magazine-style serif, bottle green and brass, centred headline over a panoramic image.','Editorial centred + panorama','Numbered rows','Fraunces, Manrope'],
-[6,'Conversion Desk','Built to capture the enquiry: a short lead form sits in the hero. Friendly sans, blue and amber.','Copy + hero form','Goal-based service chooser','Plus Jakarta Sans'],
-[7,'Blueprint','Architectural drawing language: grid paper, condensed caps, mono labels and dimension callouts.','Blueprint image + callouts','Spec-sheet table','Archivo, IBM Plex Mono'],
+[5,'Editorial','Magazine-style serif, bottle green and brass. Full-bleed photograph with the copy centred on a soft dark pool.','Full-bleed photo, centred copy','Numbered rows','Fraunces, Manrope'],
 [8,'Desert Luxe','Premium sand and gold with a high-contrast serif and an arch-framed image. Suits Dubai especially.','Arch-framed image','Service cards','Cormorant Garamond, Jost'],
-[9,'Bento','Modular tiles: headline, image and all four numbers in one grid. Single modern sans.','Bento grid','Bento services','Onest'],
-[10,'Kinetic','Oversized type and a moving ribbon of ad creatives. Plum and gold, energetic.','Kinetic type + creative ribbon','Horizontal scroll cards','Unbounded, Satoshi']];
+[9,'Bento','Modular tiles: headline, image and all four numbers in one grid. Single modern sans.','Bento grid','Bento services','Onest'],;
 const g=document.getElementById('grid');
 for(const [n,name,desc,hero,svc,fonts] of IT){
  const india=n===1?'/iteration-1/index.html':'/index.html?iter='+n, dubai=n===1?'/iteration-1/dubai.html':'/dubai.html?iter='+n;
