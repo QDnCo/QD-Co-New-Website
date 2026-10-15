@@ -9,7 +9,7 @@ const sha=s=>crypto.createHash('sha256').update(s).digest('hex');
 if(out!==path.join(root,'release-prep/candidate'))throw Error('Unsafe destination');
 fs.mkdirSync(out,{recursive:true});fs.cpSync(live,out,{recursive:true});
 for(const dir of ['assets','brands','adreel','shots','team'])fs.cpSync(path.join(root,dir),path.join(out,'_redesign',dir),{recursive:true,filter:p=>!p.endsWith('.md')});
-for(const file of ['gold-ui.css','responsive.css','v4.css','iterations.css','iteration-switcher.js','case-studies.json'])fs.copyFileSync(path.join(root,file),path.join(out,'_redesign',file));
+for(const file of ['gold-ui.css','responsive.css','v4.css','iterations.css','iteration-switcher.js','testimonials.js','testimonials.json','case-studies.json'])fs.copyFileSync(path.join(root,file),path.join(out,'_redesign',file));
 const cases=JSON.parse(read(root+'/case-studies.json'));
 const profiles=JSON.parse(read(__dirname+'/profiles.json'));
 const route={'index.html':'/','india.html':'/','dubai.html':'/dubai/','about.html':'/about/','work.html':'/work/index.html','contact.html':'/contact/','dubai-about.html':'/dubai/about/','dubai-work.html':'/dubai/work/','dubai-contact.html':'/dubai/contact/','company-profile.html':'/company-profile/','resources.html':'/resources/'};

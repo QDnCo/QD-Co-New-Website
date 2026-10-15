@@ -4,7 +4,7 @@ import shutil,subprocess,json,sys
 src=Path(__file__).resolve().parent
 root=Path('/tmp/qdnco-share-preview-20261011');root.mkdir(exist_ok=True)
 for p in src.iterdir():
- if p.is_file() and (p.suffix in ['.html','.css','.jsx','.js'] or p.name=='case-studies.json') and not p.name.startswith('dubai-v4'):
+ if p.is_file() and (p.suffix in ['.html','.css','.jsx','.js'] or p.name in ['case-studies.json','testimonials.json']) and not p.name.startswith('dubai-v4'):
   shutil.copy2(p,root/p.name)
 for folder in ['assets','brands','adreel','shots','team','insights','profile-preview','iteration-1','iteration-thumbs']:
  for p in (src/folder).rglob('*'):

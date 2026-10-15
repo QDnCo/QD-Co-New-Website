@@ -17,6 +17,6 @@ for n in pages:
  s=s.replace("if(!video)return;video.muted=false;video.volume=1;","if(!video)return;wantsSound.current=true;video.muted=false;video.volume=1;")
  s=s.replace("    if(video.ended)video.currentTime=0;\n","    if(video.ended)video.currentTime=0;\n    if(!wantsSound.current)video.muted=true;\n")
  s=s.replace("<video ref={filmRef} onVolumeChange","<video ref={filmRef} muted autoPlay onVolumeChange")
- s=s.replace('</body>','<script src="/iteration-switcher.js" data-iter="1"></script></body>',1)
+ s=s.replace('</body>','<script src="/iteration-switcher.js" data-iter="1"></script><script src="/testimonials.js"></script></body>',1)
  (D/(n+'.html')).write_text(s)
 print('iteration-1:',len(pages),'pages')

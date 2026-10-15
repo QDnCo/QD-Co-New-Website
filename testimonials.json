@@ -1,0 +1,8 @@
+{
+  "_readme": "Only real, written client quotes with the client's permission. Set approved:true once the client has OKed the exact wording. Cards with approved:false render as clearly labelled placeholders in the private preview.",
+  "items": [
+    {"approved": false, "quote": "Your client's words go here: two or three lines on what changed for their project, such as lead quality, site visits or bookings.", "name": "Client name", "role": "Role, Company · Project, City"},
+    {"approved": false, "quote": "A second client quote. The strongest ones name a concrete outcome and mention the project type and city.", "name": "Client name", "role": "Role, Company · Project, City"},
+    {"approved": false, "quote": "A third client quote, ideally from a channel partner or a Dubai realtor so both audiences see themselves.", "name": "Client name", "role": "Role, Company · Project, City"}
+  ]
+}
