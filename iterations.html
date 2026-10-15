@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="robots" content="noindex,nofollow"><title>QDnCo — Compare design iterations</title>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="robots" content="noindex,nofollow"><meta http-equiv="Cache-Control" content="no-cache"><title>QDnCo — Compare design iterations</title>
 
 <style>
 :root{--bg:#f3f4f0;--ink:#0f1d26;--muted:#55636b;--line:rgba(15,29,38,.12);--card:#fff;--gold:#c9a35b}
@@ -23,19 +23,12 @@ dl{display:grid;grid-template-columns:auto 1fr;gap:2px 10px;margin:4px 0 0;font-
 </style><link rel="icon" type="image/png" sizes="96x96" href="/icon-96.png"><link rel="icon" type="image/svg+xml" href="/favicon.svg"><link rel="shortcut icon" href="/favicon.ico"><link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png"><link rel="manifest" href="/site.webmanifest"></head><body><main>
 <h1>QDnCo website: shortlisted design iterations</h1>
 <p class="intro">Private preview, not published. Every iteration carries the same content: hero with the developer logo scroll, 01 Who we are (founder film), 02 What we do, 03 Who we work with, 04 How we work (3D roadmap), with the brand, creative and platform scroll bridges in between, then the worldwide map, guides, FAQ and the enquiry CTA. Use the switcher at the bottom-left of any page to jump between iterations, and the moon/sun toggle for light and dark.</p>
-<div class="grid" id="grid"></div>
-</main>
-<script>
-const IT=[
-[1,'Original','Your original design (before the redesign). Cream and gold, Inter with italic serif accents.','Architecture photo + numbers','Expandable service tree','Inter, Instrument Serif, Barlow'],
-[2,'Ledger','Calm ink-and-brass. Headline beside a moving wall of real ad creatives; numbers ledger and logo scroll in the first screen.','Creative wall','Tabbed service explorer','Clash Display, Satoshi'],
-[3,'Skyline Noir','Cinematic and dark-first. Full-bleed architecture photograph with a champagne accent.','Full-bleed photo','Service cards','Cabinet Grotesk, General Sans'],
-[5,'Editorial','Magazine-style serif, bottle green and brass. Full-bleed photograph with the copy centred on a soft dark pool.','Full-bleed photo, centred copy','Numbered rows','Fraunces, Manrope'],
-[8,'Desert Luxe','Premium sand and gold with a high-contrast serif and an arch-framed image. Suits Dubai especially.','Arch-framed image','Service cards','Cormorant Garamond, Jost'],
-[9,'Bento','Modular tiles: headline, image and all four numbers in one grid. Single modern sans.','Bento grid','Bento services','Onest']];
-const g=document.getElementById('grid');
-for(const [n,name,desc,hero,svc,fonts] of IT){
- const india=n===1?'/iteration-1/index.html':'/index.html?iter='+n, dubai=n===1?'/iteration-1/dubai.html':'/dubai.html?iter='+n;
- g.insertAdjacentHTML('beforeend',`<article class="card"><a class="thumb" href="${india}" aria-label="Open iteration ${n}" style="background-image:url(iteration-thumbs/it-${n}.jpg)"></a><div class="body"><span class="n">Iteration ${n}</span><h2>${name}</h2><p>${desc}</p><dl><dt>Hero</dt><dd>${hero}</dd><dt>Services</dt><dd>${svc}</dd><dt>Type</dt><dd>${fonts}</dd></dl><div class="links"><a href="${india}">India</a><a href="${dubai}">Dubai</a></div></div></article>`);
-}
-</script></body></html>
+<div class="grid" id="grid">
+<article class="card"><a class="thumb" href="/iteration-1/index.html" aria-label="Open iteration 1, India" style="background-image:url(iteration-thumbs/it-1.jpg)"></a><div class="body"><span class="n">Iteration 1</span><h2>Original</h2><p>Your original design (before the redesign). Cream and gold, Inter with italic serif accents.</p><dl><dt>Hero</dt><dd>Architecture photo + numbers</dd><dt>Services</dt><dd>Expandable service tree</dd><dt>Type</dt><dd>Inter, Instrument Serif, Barlow</dd></dl><div class="links"><a href="/iteration-1/index.html">India</a><a href="/iteration-1/dubai.html">Dubai</a></div></div></article>
+<article class="card"><a class="thumb" href="/index.html?iter=2" aria-label="Open iteration 2, India" style="background-image:url(iteration-thumbs/it-2.jpg)"></a><div class="body"><span class="n">Iteration 2</span><h2>Ledger</h2><p>Calm ink-and-brass. Headline beside a moving wall of real ad creatives; numbers ledger and logo scroll in the first screen.</p><dl><dt>Hero</dt><dd>Creative wall</dd><dt>Services</dt><dd>Tabbed service explorer</dd><dt>Type</dt><dd>Clash Display, Satoshi</dd></dl><div class="links"><a href="/index.html?iter=2">India</a><a href="/dubai.html?iter=2">Dubai</a></div></div></article>
+<article class="card"><a class="thumb" href="/index.html?iter=3" aria-label="Open iteration 3, India" style="background-image:url(iteration-thumbs/it-3.jpg)"></a><div class="body"><span class="n">Iteration 3</span><h2>Skyline Noir</h2><p>Cinematic and dark-first. Full-bleed architecture photograph with a champagne accent.</p><dl><dt>Hero</dt><dd>Full-bleed photo</dd><dt>Services</dt><dd>Service cards</dd><dt>Type</dt><dd>Cabinet Grotesk, General Sans</dd></dl><div class="links"><a href="/index.html?iter=3">India</a><a href="/dubai.html?iter=3">Dubai</a></div></div></article>
+<article class="card"><a class="thumb" href="/index.html?iter=5" aria-label="Open iteration 5, India" style="background-image:url(iteration-thumbs/it-5.jpg)"></a><div class="body"><span class="n">Iteration 5</span><h2>Editorial</h2><p>Magazine-style serif, bottle green and brass. Full-bleed photograph with the copy centred on a soft dark pool.</p><dl><dt>Hero</dt><dd>Full-bleed photo, centred copy</dd><dt>Services</dt><dd>Numbered rows</dd><dt>Type</dt><dd>Fraunces, Manrope</dd></dl><div class="links"><a href="/index.html?iter=5">India</a><a href="/dubai.html?iter=5">Dubai</a></div></div></article>
+<article class="card"><a class="thumb" href="/index.html?iter=8" aria-label="Open iteration 8, India" style="background-image:url(iteration-thumbs/it-8.jpg)"></a><div class="body"><span class="n">Iteration 8</span><h2>Desert Luxe</h2><p>Premium sand and gold with a high-contrast serif and an arch-framed image. Suits Dubai especially.</p><dl><dt>Hero</dt><dd>Arch-framed image</dd><dt>Services</dt><dd>Service cards</dd><dt>Type</dt><dd>Cormorant Garamond, Jost</dd></dl><div class="links"><a href="/index.html?iter=8">India</a><a href="/dubai.html?iter=8">Dubai</a></div></div></article>
+<article class="card"><a class="thumb" href="/index.html?iter=9" aria-label="Open iteration 9, India" style="background-image:url(iteration-thumbs/it-9.jpg)"></a><div class="body"><span class="n">Iteration 9</span><h2>Bento</h2><p>Modular tiles: headline, image and all four numbers in one grid. Single modern sans.</p><dl><dt>Hero</dt><dd>Bento grid</dd><dt>Services</dt><dd>Bento services</dd><dt>Type</dt><dd>Onest</dd></dl><div class="links"><a href="/index.html?iter=9">India</a><a href="/dubai.html?iter=9">Dubai</a></div></div></article>
+</div>
+</main></body></html>

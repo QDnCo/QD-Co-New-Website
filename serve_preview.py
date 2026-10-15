@@ -6,6 +6,7 @@ class Handler(SimpleHTTPRequestHandler):
  noindex=False
  def end_headers(self):
   self.send_header('Accept-Ranges','bytes')
+  self.send_header('Cache-Control','no-cache')  # always revalidate so viewers never see a stale build
   if self.noindex:self.send_header('X-Robots-Tag','noindex, nofollow, noarchive')
   super().end_headers()
  def list_directory(self,path):
