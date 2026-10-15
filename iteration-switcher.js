@@ -1,7 +1,7 @@
 /* Private preview: floating switcher between the shortlisted design iterations.
    Iteration 1 lives in /iteration-1/; 2–10 share the root pages and are chosen with ?iter=N. */
 (function(){
- var NAMES={1:'Original',2:'Ledger',3:'Skyline Noir',5:'Editorial',8:'Desert Luxe',9:'Bento'};var KEEP=[1,2,3,5,8,9];
+ var NAMES={1:'Original',2:'Ledger',3:'Skyline Noir',5:'Editorial',8:'Desert Luxe',9:'Bento',11:'Fusion'};var KEEP=[1,2,3,5,8,9,11];
  var me=document.currentScript;
  var cur=+(me&&me.getAttribute('data-iter'))||(function(){try{var q=+new URLSearchParams(location.search).get('iter');if(KEEP.indexOf(q)>0)return q;var v=+localStorage.getItem('qd-iter');return KEEP.indexOf(v)>0?v:2}catch(e){return 2}})();
  var page=(location.pathname.split('/').pop()||'index.html');
@@ -15,7 +15,7 @@
  '.qd-iter ol[hidden]{display:none}.qd-iter li a{display:flex;gap:10px;padding:9px 10px;border-radius:9px;color:#e5e7eb;text-decoration:none}'+
  '.qd-iter li a:hover,.qd-iter li a:focus-visible{background:#1f2937;outline:none}.qd-iter li a[aria-current]{background:#e8cd8e;color:#241a08}'+
  '.qd-iter li a span{opacity:.6;min-width:20px}.qd-iter .qd-all{border-top:1px solid #374151;margin-top:4px;padding-top:4px}'+
- '@media(max-width:760px){.qd-iter{bottom:86px}}';
+ '@media(max-width:760px){.qd-iter{bottom:86px}}html[data-iter="11"] .qd-iter{left:auto;right:14px}html[data-iter="11"] .qd-iter ol{left:auto;right:0}';
  document.head.appendChild(css);
  var box=document.createElement('nav');box.className='qd-iter';box.setAttribute('aria-label','Design iterations');
  var btn=document.createElement('button');btn.type='button';btn.setAttribute('aria-expanded','false');

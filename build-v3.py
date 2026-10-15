@@ -17,7 +17,8 @@ s=s.replace('</head>', '<link rel="stylesheet" href="gold-ui.css?v='+hashlib.sha
 s=s.replace('</head>', '<link rel="stylesheet" href="responsive.css?v='+hashlib.sha256((P/'responsive.css').read_bytes()).hexdigest()[:12]+'"></head>')
 s=s.replace('</head>', '<link rel="stylesheet" href="v4.css?v='+hashlib.sha256((P/'v4.css').read_bytes()).hexdigest()[:12]+'"></head>')
 s=s.replace('</head>', '<link rel="stylesheet" href="iterations.css?v='+hashlib.sha256((P/'iterations.css').read_bytes()).hexdigest()[:12]+'"></head>')
-s=s.replace('</body>','<script src="/iteration-switcher.js"></script><script src="/testimonials.js"></script></body>',1)
+_v=lambda f:hashlib.sha256((P/f).read_bytes()).hexdigest()[:12]
+s=s.replace('</body>','<script src="/iteration-switcher.js?v='+_v('iteration-switcher.js')+'"></script><script src="/testimonials.js?v='+_v('testimonials.js')+'"></script></body>',1)
 s=s.replace('<title>QDnCo — Private design review 03</title>','<title>QDnCo — Design iterations</title>')
 for n in ['index','india','dubai','about','work','contact','dubai-about','dubai-work','dubai-contact','company-profile']:(P/(n+'.html')).write_text(s)
 for case in json.loads((P/'case-studies.json').read_text()):

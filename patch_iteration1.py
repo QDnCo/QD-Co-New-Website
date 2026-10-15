@@ -1,7 +1,8 @@
 # Rebuild /iteration-1/ = the original design (commit f5f2b9d) with links kept inside the folder.
-import json,subprocess,re
+import json,subprocess,re,hashlib
 from pathlib import Path
 P=Path(__file__).resolve().parent;D=P/'iteration-1';D.mkdir(exist_ok=True)
+_v=lambda f:hashlib.sha256((P/f).read_bytes()).hexdigest()[:12]
 pages=['index','india','dubai','about','work','contact','dubai-about','dubai-work','dubai-contact','company-profile']+['case-'+c['slug'] for c in json.loads((P/'case-studies.json').read_text())]
 for n in pages:
  s=subprocess.run(['git','show','f5f2b9d:'+n+'.html'],cwd=P,capture_output=True,text=True,check=True).stdout
@@ -17,6 +18,6 @@ for n in pages:
  s=s.replace("if(!video)return;video.muted=false;video.volume=1;","if(!video)return;wantsSound.current=true;video.muted=false;video.volume=1;")
  s=s.replace("    if(video.ended)video.currentTime=0;\n","    if(video.ended)video.currentTime=0;\n    if(!wantsSound.current)video.muted=true;\n")
  s=s.replace("<video ref={filmRef} onVolumeChange","<video ref={filmRef} muted autoPlay onVolumeChange")
- s=s.replace('</body>','<script src="/iteration-switcher.js" data-iter="1"></script><script src="/testimonials.js"></script></body>',1)
+ s=s.replace('</body>','<script src="/iteration-switcher.js?v='+_v('iteration-switcher.js')+'" data-iter="1"></script><script src="/testimonials.js?v='+_v('testimonials.js')+'"></script></body>',1)
  (D/(n+'.html')).write_text(s)
 print('iteration-1:',len(pages),'pages')
