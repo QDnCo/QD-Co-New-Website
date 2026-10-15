@@ -3,167 +3,167 @@
     "source": "index.html",
     "url": "https://qdnco.com/",
     "file": "index.html",
-    "staticCharacters": 54417,
-    "sha256": "ff4e76cb105fb3558694b56689bfbc8d39b15823dc0c0e7a2e7ce4fe445a99cb"
+    "staticCharacters": 56390,
+    "sha256": "baad6e97a72132210e31840a1d29d7d4bc2dc6bd9a6c709c231a4c087bd24f9d"
   },
   {
     "source": "dubai.html",
     "url": "https://qdnco.com/dubai/",
     "file": "dubai/index.html",
-    "staticCharacters": 53249,
-    "sha256": "84d8419cc7cda2d4d1bb3716578ccc7e0a2744bb1ca181918c501521a1fce6fa"
+    "staticCharacters": 52828,
+    "sha256": "7b972f7302d12a426dca08667b7d46d62b57d17595c3f68c94a146bb3bc22012"
   },
   {
     "source": "about.html",
     "url": "https://qdnco.com/about/",
     "file": "about/index.html",
-    "staticCharacters": 10496,
-    "sha256": "f70521132489b2ec6685907c12cfd463b8d3302ef8681f42915a267e9f065d60"
+    "staticCharacters": 11756,
+    "sha256": "4467a888699fb48fa9545d951adbdc930f6dfb8f5948684314fc525fbea0b9b8"
   },
   {
     "source": "work.html",
     "url": "https://qdnco.com/work/index.html",
     "file": "work/index.html",
-    "staticCharacters": 28619,
-    "sha256": "178cd34b385a718b82665347be2633e965d07413e963db45d5518ddecf82cf0a"
+    "staticCharacters": 29314,
+    "sha256": "c8a908b0a4fcf2cae87bf146db4cc3fbfd8fcc35f869cc62a5845e1f8c257832"
   },
   {
     "source": "contact.html",
     "url": "https://qdnco.com/contact/",
     "file": "contact/index.html",
-    "staticCharacters": 20247,
-    "sha256": "412a7fe861a17da1b397a11b59157a6483dffb7d8204390fdd9f6b6e9a4dc0b3"
+    "staticCharacters": 20539,
+    "sha256": "6403d952cb4d12121cf363dfd790a7f93b9c18998a1826268a9ca25de8a8255b"
   },
   {
     "source": "dubai-about.html",
     "url": "https://qdnco.com/dubai/about/",
     "file": "dubai/about/index.html",
-    "staticCharacters": 10623,
-    "sha256": "08608f8da869f89cb67b524f550c2a6b802a0a68803d297364534939f6b1c09c"
+    "staticCharacters": 11888,
+    "sha256": "b2c910116b2c1562b80ecc5d02e533de42a3f252c91cbbff377ecd5791fb2170"
   },
   {
     "source": "dubai-work.html",
     "url": "https://qdnco.com/dubai/work/",
     "file": "dubai/work/index.html",
-    "staticCharacters": 10747,
-    "sha256": "94f004f456ac60af1f34e91c067e2054f79be45a2ac821b69b5d221d78bb036f"
+    "staticCharacters": 11441,
+    "sha256": "7bcda3f65bce78662e9c5082b55b4e8b60b2f27dbe717ddc1581598fff751ed2"
   },
   {
     "source": "dubai-contact.html",
     "url": "https://qdnco.com/dubai/contact/",
     "file": "dubai/contact/index.html",
-    "staticCharacters": 20921,
-    "sha256": "77135d80b68449adb9b3dadb35bad447953c60aac963a83a28e59803422b25f0"
+    "staticCharacters": 21219,
+    "sha256": "df83f19d7af78c8748f8d9b77752eb40978229d78c0351e84fd9c7555b42b2ab"
   },
   {
     "source": "company-profile.html",
     "url": "https://qdnco.com/company-profile/",
     "file": "company-profile/index.html",
-    "staticCharacters": 8417,
-    "sha256": "25a05c3dd77941a7b67d5135dc204e7d074119abddcb2601c746cfa2ab55ff97"
+    "staticCharacters": 9112,
+    "sha256": "1c057f93ca10bbfdcd0ac31301aae82bb451c985f1e825ea5aee1373877c07a9"
   },
   {
     "source": "case-indium-north-bangalore.html",
     "url": "https://qdnco.com/work/indium-north-bangalore.html",
     "file": "work/indium-north-bangalore.html",
-    "staticCharacters": 14238,
-    "sha256": "bb230478d03c57c5df1b52815026b08d8420b48faceafc1a425930e0f4d310b0"
+    "staticCharacters": 14933,
+    "sha256": "3802c9617806280ff07af856d0961cb9c3f4ec5a8b66985f00ce3d92298f7e49"
   },
   {
     "source": "case-godrej-woodscapes.html",
     "url": "https://qdnco.com/work/godrej-woodscapes.html",
     "file": "work/godrej-woodscapes.html",
-    "staticCharacters": 14563,
-    "sha256": "db75f67db6c7f4df4130ed3ee420309d819032081c7d8a5d7d16e561fb0bfc39"
+    "staticCharacters": 15258,
+    "sha256": "c0c8b4e8d8a69e6f42644bb701a7cb567a293bf37a78f5d029ffd098be4ad6a0"
   },
   {
     "source": "case-godrej-tiara.html",
     "url": "https://qdnco.com/work/godrej-tiara.html",
     "file": "work/godrej-tiara.html",
-    "staticCharacters": 14347,
-    "sha256": "1b1d2c347e08e8e4603a119b250b3099ba82d5bf1ddf8d62fda725b8dabaf5c6"
+    "staticCharacters": 15042,
+    "sha256": "beab354f48955bbc2840866f8fc2432d2707459b331ad3fa6f41e9217020261e"
   },
   {
     "source": "case-godrej-msr-city.html",
     "url": "https://qdnco.com/work/godrej-msr-city.html",
     "file": "work/godrej-msr-city.html",
-    "staticCharacters": 14365,
-    "sha256": "acbf0f08fd4799630bf67e68a7f40d6a4d1cbc593cbd620f16a2f6538e3cfda9"
+    "staticCharacters": 15060,
+    "sha256": "c4ef21e8a15cc8f2d9c78ae1dff97837923c12d9b4fbaeff2eb65938b4f62b8d"
   },
   {
     "source": "case-kumar-platina.html",
     "url": "https://qdnco.com/work/kumar-platina.html",
     "file": "work/kumar-platina.html",
-    "staticCharacters": 14236,
-    "sha256": "56adac20f9888afe3c481cc4246c11233afd8cac35028eaac2c88894af26636e"
+    "staticCharacters": 14931,
+    "sha256": "5b74423b76ecc9ae0cad69f7116d971fc1ed449044cddeea7a889d33fd42b331"
   },
   {
     "source": "case-brigade-eternia.html",
     "url": "https://qdnco.com/work/brigade-eternia.html",
     "file": "work/brigade-eternia.html",
-    "staticCharacters": 14587,
-    "sha256": "57b767541db5e8d1953386f608876e4fe8d7ad656f300c9b42e5d9147c98ebf3"
+    "staticCharacters": 15282,
+    "sha256": "78d6cee3f8fc3d876442effbb7816d2d10c2ba6fcc833dbaf861b0585c75a037"
   },
   {
     "source": "case-brigade-jeevan-sandya.html",
     "url": "https://qdnco.com/work/brigade-jeevan-sandya.html",
     "file": "work/brigade-jeevan-sandya.html",
-    "staticCharacters": 14425,
-    "sha256": "8dd45eb6c554b03b8dfdc8bb169d583716c2ee97756f21dc78aec2768b86e21a"
+    "staticCharacters": 15120,
+    "sha256": "aeb639f5d79663bd0b42faf3f72dceca55a83dcbfb3aeaaf25e0022f17aa782a"
   },
   {
     "source": "case-brigade-granada.html",
     "url": "https://qdnco.com/work/brigade-granada.html",
     "file": "work/brigade-granada.html",
-    "staticCharacters": 14367,
-    "sha256": "f92c5cc84932eafa4deaf14aea0af9468a7cfe133fcd11ea30fabc61111cc9f0"
+    "staticCharacters": 15062,
+    "sha256": "4158b2fb9d9f54cad3dcbbe273ed8b8ac6f9044ae1c39f027b8ffd9cc6308594"
   },
   {
     "source": "case-brigade-vanagaram.html",
     "url": "https://qdnco.com/work/brigade-vanagaram.html",
     "file": "work/brigade-vanagaram.html",
-    "staticCharacters": 14281,
-    "sha256": "e777713c056558b3be829c0ecfade6293352076f239d0a8d1485d73edde4c6da"
+    "staticCharacters": 14976,
+    "sha256": "3f4f0134bd06e93870a4acc60fb64d7574947d1b545dd088299702e387c15638"
   },
   {
     "source": "case-vaishnavi-life-mysore.html",
     "url": "https://qdnco.com/work/vaishnavi-life-mysore.html",
     "file": "work/vaishnavi-life-mysore.html",
-    "staticCharacters": 14314,
-    "sha256": "cc8f6be369f613d5e328288c5f1c367c91dd602d795ec92fa195c2c581969770"
+    "staticCharacters": 15009,
+    "sha256": "d808144e42941cceeb2ec6e1e83991145f6a002a83feb00a88fb1f383dc992c4"
   },
   {
     "source": "case-nambiar-bannerghatta.html",
     "url": "https://qdnco.com/work/nambiar-bannerghatta.html",
     "file": "work/nambiar-bannerghatta.html",
-    "staticCharacters": 14231,
-    "sha256": "af8d471d5ccdfd474fee6d0659863613c24d0d839ae606c3907483e3c98f7ff2"
+    "staticCharacters": 14926,
+    "sha256": "679ecf3e153814e55a5e5e8a982e80497286ef38eddda7b5aac4507e03a49409"
   },
   {
     "source": "case-vajram-kogilu.html",
     "url": "https://qdnco.com/work/vajram-kogilu.html",
     "file": "work/vajram-kogilu.html",
-    "staticCharacters": 14213,
-    "sha256": "2d9b26827364902b6239f28fcb6ea5fafec4cb5f336f0aaf4cc203e672c34ba7"
+    "staticCharacters": 14908,
+    "sha256": "3330f8c19b9df18482af4c1ef4f9bee0a341578aa83ba871e33ac7ea47a91aa2"
   },
   {
     "source": "case-nikoo-homes-9.html",
     "url": "https://qdnco.com/work/nikoo-homes-9.html",
     "file": "work/nikoo-homes-9.html",
-    "staticCharacters": 14294,
-    "sha256": "b00621be45e466d2ea66c4d87e835f2ccb466e109c6b35a791a630be44aef1f6"
+    "staticCharacters": 14989,
+    "sha256": "e30902158242d652b10b4e9a13910ff78e6dca0843fb2e4a515151f7e101aa20"
   },
   {
     "source": "case-urbanrise-paradise-on-earth.html",
     "url": "https://qdnco.com/work/urbanrise-paradise-on-earth.html",
     "file": "work/urbanrise-paradise-on-earth.html",
-    "staticCharacters": 14301,
-    "sha256": "fce3da7ddd646cedde04b165b01df99ec76091d10c7425463253b1ea610302ea"
+    "staticCharacters": 14996,
+    "sha256": "9c817fe3d86fae9f425afade2d6c991669ed5c5e7f1584dcb0b05a9fcdf8cbe8"
   },
   {
     "source": "pricing/index.html",
     "url": "https://qdnco.com/pricing/index.html",
     "file": "pricing/index.html",
-    "sha256": "e4b90e8b1a6a1b2c58eb5453d297018278b9e89e69001f4cc33f2b5661e709a4"
+    "sha256": "eaafa280dc49203705992eb7d8f38726b5627998d2b124b5649f40d5df886f77"
   }
 ]

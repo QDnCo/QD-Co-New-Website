@@ -2,8 +2,7 @@ const QD_KEEP=[2,3,5,8,9];
 const QD_ITER=(()=>{try{const q=+new URLSearchParams(location.search).get('iter');if(QD_KEEP.includes(q)){localStorage.setItem('qd-iter',String(q));return q}const v=+localStorage.getItem('qd-iter');return QD_KEEP.includes(v)?v:2}catch{return 2}})();
 const QD_ITERS={2:{name:'Ledger',hero:'wall',svc:'tabs',fonts:''},3:{name:'Skyline Noir',hero:'photo',svc:'cards',fonts:'https://api.fontshare.com/v2/css?f[]=cabinet-grotesk@500,700,800&f[]=general-sans@400,500,600&display=swap'},5:{name:'Editorial',hero:'editorial',svc:'rows',fonts:'https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400..700&family=Manrope:wght@400;500;700&display=swap'},8:{name:'Desert Luxe',hero:'arch',svc:'cards',fonts:'https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=Jost:wght@400;500;600&display=swap'},9:{name:'Bento',hero:'bento',svc:'bento',fonts:'https://fonts.googleapis.com/css2?family=Onest:wght@400..800&display=swap'}};
 const QD_IT=QD_ITERS[QD_ITER];
-document.documentElement.dataset.iter=QD_ITER;
-if(QD_IT.fonts){const l=document.createElement('link');l.rel='stylesheet';l.href=QD_IT.fonts;document.head.appendChild(l)}
+if(typeof document!=='undefined'){document.documentElement.dataset.iter=QD_ITER;if(QD_IT.fonts){const l=document.createElement('link');l.rel='stylesheet';l.href=QD_IT.fonts;document.head.appendChild(l)}}
 const V3_DUBAI=location.pathname.includes('dubai');
 const v3link=(page='index')=>(V3_DUBAI?(page==='index'?'dubai':'dubai-'+page):page)+'.html';
 const V3_DEVS=[
